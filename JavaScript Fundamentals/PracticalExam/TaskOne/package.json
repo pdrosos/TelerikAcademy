@@ -1,0 +1,10 @@
+{
+  "name": "TaskOne",
+  "version": "0.0.0",
+  "description": "TaskOne",
+  "main": "app.js",
+  "author": {
+    "name": "Pavlina",
+    "email": ""
+  }
+}

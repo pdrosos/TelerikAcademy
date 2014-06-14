@@ -1,0 +1,95 @@
+#include <cstdio>
+#include <algorithm>
+#include <cmath>
+using namespace std;
+#define NN 10024
+struct point
+{
+.__.double x, y;
+}
+;
+double distsqr(point a, point b)
+{
+.__.return (a.x - b.x)*(a.x - b.x) + (a.y - b.y)*(a.y - b.y);
+}
+#define INF 1E10
+#define EPS 1E-10
+int n;
+point p[NN]; /* cuidado! input deve ser global */
+bool xcmp(point a, point b)
+{
+.__.return a.x < b.x;
+}
+bool ycmp(int a, int b)
+{
+.__.return p[a].y < p[b].y;
+}
+double cpsolve(int a[NN], int L, int R)
+{
+.__.int i, j, k, n = R-L, q = (L+R)>>1;
+.__.int LT;
+.__.if(n <= 1) return INF;
+.__.if(n == 2) return distsqr(p[a[0]], p[a[1]]);
+.__./* divida */
+.__.int b[NN];
+.__.for(i = k = 0, j = q - L; k < n; k++)
+.__.if(a[k] <= q && i < (q-L)) b[i++] = a[k];
+.__.else b[j++] = a[k];
+.__./* conquiste */
+.__.double ans = min(cpsolve(b, L, q),cpsolve(b+q-L, q+1, R));
+.__./* combine */
+.__.int f[NN], t = 0;
+.__.for(k = 0; k < n; k++)
+.__.if(fabs(p[a[k]].x - p[q].x) - ans < EPS)
+.__.f[t++] = a[k];
+.__.for(i = 0; i < t-1; i++)
+.__.{
+.__..__.for(j = min(i+7, t-1); j > i; j--)
+.__..__.{
+.__..__..__.double d = distsqr(p[f[i]], p[f[j]]);
+.__..__..__.if(d < ans) ans = d;
+.__..__.}
+.__.}
+.__.return ans;
+}
+double closestpair()
+{
+.__.int i, a[NN];
+.__.for(i = 0; i < n; i++) a[i] = i;
+.__.sort(p, p+n, xcmp);
+.__.sort(a, a+n, ycmp);
+.__.return cpsolve(a, 0, n);
+}
+int main(void)
+{
+.__.int i;
+.__.double ans = INF;
+.__.scanf("%d", &n);
+.__.for(i = 0; i < n; i++) scanf("%lf %lf", &p[i].x, &p[i].y);
+.__.ans = sqrt(closestpair());
+.__.printf("%.2lf\n", ans);
+.__.return 0;
+}
+char*M,A,Z,E=40,J[40],T[40];main(C)
+{
+.__.for(*J=
+.__.{
+.__..__.A
+.__.}
+.__.=scanf(M="%d",&C);
+.__.-- E; J[ E] =T
+.__.[E ]= E)
+.__.{
+.__..__.printf("._"); for(;(A-=Z=!Z)
+.__.}
+.__.{
+.__.}
+.__.|| (printf("\n|"
+.__.) , A = 39 ,C --
+.__.) ; Z || printf (M ))M[Z]=Z[A-(E =A[J-Z])&&!C
+.__.& A == T[
+.__.{
+.__..__.A]
+.__..__.|6<<27<rand()||!C&!Z?J[T[E]=T[[A]]=E,J[T[A]=A-Z]=A,"_.":" |"];
+.__.}
+}

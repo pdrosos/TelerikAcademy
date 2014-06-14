@@ -1,0 +1,12 @@
+﻿body {
+    background-color: white;    
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    width: 98%;
+}
+
+div {
+    background: #000;
+    border-radius: 60px;
+    border: 1px solid #f00;
+    padding-right: 3%;
+}

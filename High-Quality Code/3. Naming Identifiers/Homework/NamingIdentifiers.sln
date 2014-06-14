@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. PrintBoolean", "PrintBoolean\01. PrintBoolean.csproj", "{0DBB5E15-F44F-45B8-8007-EA0DF4C1D939}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. People", "People\02. People.csproj", "{6AE97834-BE2C-491F-B038-583B3659B92E}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "03. IsMozilla", "http://localhost:33695", "{F3BA42B9-9AD6-43BB-95A4-5EB461B0C58C}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_33695"
+		Debug.AspNetCompiler.PhysicalPath = "03. IsMozilla\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_33695\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_33695"
+		Release.AspNetCompiler.PhysicalPath = "03. IsMozilla\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_33695\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "03. IsMozilla\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Minesweeper", "Minesweeper\04. Minesweeper.csproj", "{52ADCAA6-9641-4CF1-90E3-9A41133762E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DBB5E15-F44F-45B8-8007-EA0DF4C1D939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DBB5E15-F44F-45B8-8007-EA0DF4C1D939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DBB5E15-F44F-45B8-8007-EA0DF4C1D939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DBB5E15-F44F-45B8-8007-EA0DF4C1D939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AE97834-BE2C-491F-B038-583B3659B92E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AE97834-BE2C-491F-B038-583B3659B92E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AE97834-BE2C-491F-B038-583B3659B92E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AE97834-BE2C-491F-B038-583B3659B92E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3BA42B9-9AD6-43BB-95A4-5EB461B0C58C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3BA42B9-9AD6-43BB-95A4-5EB461B0C58C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3BA42B9-9AD6-43BB-95A4-5EB461B0C58C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3BA42B9-9AD6-43BB-95A4-5EB461B0C58C}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{52ADCAA6-9641-4CF1-90E3-9A41133762E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52ADCAA6-9641-4CF1-90E3-9A41133762E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52ADCAA6-9641-4CF1-90E3-9A41133762E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52ADCAA6-9641-4CF1-90E3-9A41133762E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

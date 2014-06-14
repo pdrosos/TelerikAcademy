@@ -1,0 +1,19 @@
+body {
+    background: black;
+    margin: 0;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto 20px;
+    outline: 0;
+}
+        
+h1
+{
+    font-family: 'Dancing Script', cursive;
+    font-weight: normal;
+    font-size: 42px;
+    text-align: center;
+    color:  #2C9BC8;
+}

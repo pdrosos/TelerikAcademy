@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Form</title>
+    <link rel="stylesheet" type="text/css" href="styles/form.css" media="screen" />
+</head>
+<body>
+    <form name="member" id="member" method="post" action="#">
+        <div class="row">
+            <label for="memberName">Member name:</label>
+            <input type="text" name="name" id="memberName" value="" required="required" /> <span class="required">*req</span>
+        </div>
+    
+        <div class="row">
+            <label for="memberEmail">E-mail:</label>
+            <input type="text" name="email" id="memberEmail" value="" title="sample@email.com"
+                   required="required" 
+                   pattern="[a-zA-Z0-9_]{3,}@[a-zA-Z0-9_]{3,}.[a-zA-Z0-9_]{2,4}"
+                   placeholder="sample@email.com" /> <span class="required">*req</span>
+        </div>
+
+        <div class="row">
+            <label for="memberSchool">School:</label>
+            <input type="text" name="school" id="memberSchool" value="" required="required" /> <span class="required">*req</span>
+        </div>
+
+        <div class="row">
+            <input type="submit" name="submit" class="button" value="Submit" />
+        </div>
+    </form>
+</body>
+</html>

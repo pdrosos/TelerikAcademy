@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-03. Students", "Students\01-03. Students.csproj", "{B1E269F3-FA31-45B8-9DCB-4DEA721135DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. People", "People\04. People.csproj", "{547F83A9-0BA9-4549-89AC-3AE4DC552C29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. BitArrays", "BitArrays\05. BitArrays.csproj", "{C67BB181-9BD3-4984-8596-E5796DC19AE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1E269F3-FA31-45B8-9DCB-4DEA721135DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1E269F3-FA31-45B8-9DCB-4DEA721135DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1E269F3-FA31-45B8-9DCB-4DEA721135DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1E269F3-FA31-45B8-9DCB-4DEA721135DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{547F83A9-0BA9-4549-89AC-3AE4DC552C29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{547F83A9-0BA9-4549-89AC-3AE4DC552C29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{547F83A9-0BA9-4549-89AC-3AE4DC552C29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{547F83A9-0BA9-4549-89AC-3AE4DC552C29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C67BB181-9BD3-4984-8596-E5796DC19AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C67BB181-9BD3-4984-8596-E5796DC19AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C67BB181-9BD3-4984-8596-E5796DC19AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C67BB181-9BD3-4984-8596-E5796DC19AE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

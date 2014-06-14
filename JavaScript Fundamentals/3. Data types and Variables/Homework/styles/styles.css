@@ -1,0 +1,102 @@
+﻿@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/lato/Lato-Lig.ttf') format('truetype'),
+       url('../fonts/lato/Lato-LigIta.ttf') format('truetype'),       
+       url('../fonts/lato/Lato-Reg.ttf') format('truetype'),
+       url('../fonts/lato/Lato-RegIta.ttf') format('truetype'), 
+       url('../fonts/lato/Lato-Bol.ttf') format('truetype'),
+       url('../fonts/lato/Lato-BolIta.ttf') format('truetype');              
+}
+
+#wrapper {
+    padding-left: 380px;
+}
+
+#sidebar-wrapper {
+    margin-left: -380px;
+    left: 380px;
+    width: 380px;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+    z-index: 1000;
+    background: #1F2223;
+    background-image: url('../images/ninja.png');
+    background-repeat: no-repeat;
+    background-position: 90px 60px;
+}
+
+#wrapper.active {
+    padding-left: 0;
+}
+
+#page-content-wrapper {
+    width: 100%;
+}
+
+
+.sidebar-nav {
+    position: absolute;
+    top: 230px;
+    width: 380px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+    .sidebar-nav > .sidebar-brand {
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .sidebar-nav li {
+        text-indent: 70px;
+    }
+
+        .sidebar-nav li a {
+            display: block;
+            text-decoration: none;
+            padding-left: 15px;
+            color: #EEEEEE;
+            text-transform: uppercase;
+            font-size: 18px;
+            font-weight: 100;
+        }
+
+            .sidebar-nav li a:hover,
+            .sidebar-nav li.active a {
+                color: #CBB370;
+                background: none;
+            }
+
+            .sidebar-nav li a:active,
+            .sidebar-nav li a:focus {
+                background: none;
+                outline: none;
+            }
+
+
+.content-header {
+    height: 80px;
+    line-height: 80px;
+}
+
+    .content-header h1 {
+        margin: 0;
+        margin-left: 20px;
+        margin-top: 30px;
+        display: inline-block;
+        font-size: 30px;
+        text-transform: uppercase;
+        color: #013300;
+    }
+
+.inset {
+    padding: 20px 38px;
+}
+
+.jumbotron h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}

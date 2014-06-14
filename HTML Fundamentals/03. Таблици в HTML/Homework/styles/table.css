@@ -1,0 +1,25 @@
+﻿body {
+    font-family: 'Times New Roman', serif;
+    font-size: 16px;
+}
+
+table, td {
+    border: 1px solid grey;
+}
+
+table th, table td {
+    padding: 5px;
+    width: 30px;
+}
+
+table .right {
+    text-align: right;
+}
+
+table .center {
+    text-align: center;
+}
+
+table .bottom {
+    vertical-align: bottom;
+}

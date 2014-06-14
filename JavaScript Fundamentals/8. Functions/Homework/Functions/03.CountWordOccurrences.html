@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <title>03. Count word occurrences</title>
+        <link rel="stylesheet" type="text/css" href="css/jsConsoleStyles.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body>
+        <header>
+            <h2>JavaScript Console</h2>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+            </nav>
+            <div id="javascript-ninja"></div>
+        </header>
+        <div id="wrapper">
+            <aside>
+                <ul>
+                    <li><a href="01.NumberLastDigitAsWord.html">01. Number's last digit as word</a></li>
+                    <li><a href="02.DecimalNumberReverseDigits.html">02. Decimal number reverse digits</a></li>
+                    <li><a href="03.CountWordOccurrences.html">03. Count word occurrences</a></li>
+                    <li><a href="04.CountNumberOfDivs.html">04. Count number of divs</a></li>
+                    <li><a href="05.ArrayCountNumberOccurrences.html">05. Array - count number occurrences</a></li>
+                    <li><a href="06.IsArrayElementBiggerThanNeighbors.html">06. Is array element bigger than neighbors</a></li>
+                    <li><a href="07.ArrayFirstElementBiggerThanNeighborsIndex.html">07. Index of first element bigger than neighbors</a></li>
+                </ul>
+            </aside>
+            <section>
+                <article>
+                    <h3>Count word occurrences in text</h3>
+                    <p>
+                        Write a function that finds all the occurrences of word in a text.
+                    </p>
+                    <ul>
+                        <li>The search can be case sensitive or case insensitive.</li>
+                        <li>Use function overloading.</li>
+                    </ul>
+                    <form>
+                        <label for="word">Type word here: </label>
+                        <input type="text" id="word" onkeydown="return jsConsole.searchKeyPress(event);" />
+                        <input type="button" id="process" value="Process" />
+                        <input type="button" onclick="jsConsole.clearAll()" id="clear" value="Clear" />
+                    </form>
+                </article>
+                <div id="js-console">
+                </div>
+            </section>
+        </div>
+        <footer></footer>
+        <script type="text/javascript" src="js/js-console.js"></script>
+        <script type="text/javascript" src="js/userValidation.js"></script>
+        <script type="text/javascript" src="js/03.CountWordOccurrences.js"></script>
+    </body>
+</html>

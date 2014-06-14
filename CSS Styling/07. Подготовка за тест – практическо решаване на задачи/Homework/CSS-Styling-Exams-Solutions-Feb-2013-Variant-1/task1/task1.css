@@ -1,0 +1,122 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* End of CSS Reset */
+
+body
+{
+    font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    width: 960px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 16px;
+    color: #000000;
+}
+
+#wrapper
+{
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #D29BFF 0,#8977FF 100%);
+    width: 215px;
+}
+
+#wrapper aside ul
+{
+    padding: 5px 15px;
+}
+
+#wrapper a
+{
+    text-decoration: none;
+    color: #000000;
+}
+
+#wrapper .sidebar > li
+{
+    font-size: 22px;
+    position: relative;
+}
+
+#wrapper ul li
+{
+    display: block;
+    text-align: center;
+    padding: 7px 15px;
+    border-bottom: 1px solid #9D00FF;
+}
+
+#wrapper ul li:last-child
+{
+    border: 0;
+}
+
+#wrapper ul li:hover
+{
+    border: 1px solid #9D00FF;
+    border-radius: 5px;
+}
+
+#wrapper ul li ul
+{
+    display: none;
+    position: absolute;
+    top: -5px;
+    left: 190px;
+    font-size: 18px;
+    width: 235px;
+    padding: 5px 5px 5px 20px;
+    background-color: #B5AAFF;
+    border-radius: 10px;
+    background-image: url(imgs/arrow.png);
+    background-repeat: no-repeat;
+    background-position: 5px 15px;
+}
+
+#wrapper ul li:hover ul
+{
+    display: block;
+}

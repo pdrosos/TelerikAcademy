@@ -1,0 +1,22 @@
+﻿body {
+    font-family: 'Times New Roman', serif;
+    font-size: 16px;
+}
+
+table {
+    width: 700px;
+}
+
+table, th, td {
+    border: 2px solid grey;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 5px;
+}
+
+table tbody td:last-of-type {
+    font-weight: bold;
+    text-align: center;
+}

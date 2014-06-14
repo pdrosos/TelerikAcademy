@@ -1,0 +1,73 @@
+﻿body {
+    font-family: 'Times New Roman', serif;
+    font-size: 16px;
+}
+
+table {
+    width: 550px;
+}
+
+table, td {
+    border: 2px solid lightgrey;
+    border-collapse: collapse;
+}
+
+table tbody td:first-of-type {
+    width: 30%;
+    text-align: right;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+table tbody td:last-of-type {
+    text-align: left;
+    padding: 5px;
+}
+
+table tfoot {
+    background-color: lightblue;
+    text-align: center;
+}
+
+.width350 {
+    width: 350px;
+}
+
+.width230 {
+    width: 230px;
+}
+
+.width150 {
+    width: 150px;
+}
+
+.width100 {
+    width: 100px;
+}
+
+.width60 {
+    width: 60px;
+}
+
+.width50 {
+    width: 50px;
+}
+
+.width25 {
+    width: 25px;
+}
+
+.height100 {
+    height: 100px;
+}
+
+.state {
+    font-weight: bold;
+    border-left: 2px solid lightgrey;
+    border-right: 2px solid lightgrey;
+    padding: 7px;
+}
+
+label {
+    margin: 5px;
+}

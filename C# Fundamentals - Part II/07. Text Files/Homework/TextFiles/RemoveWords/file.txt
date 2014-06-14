@@ -1,0 +1,2 @@
+ELEPHANT scares LION scares POLAR BEAR scares DOG 
+scares CAT scares MOUSE scares ELEPHANT.

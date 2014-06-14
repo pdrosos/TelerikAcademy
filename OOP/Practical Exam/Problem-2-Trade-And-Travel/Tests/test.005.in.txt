@@ -1,0 +1,9 @@
+create location town markarth
+create location mine cidna
+create item wood druvo cidna
+create traveller hex markarth
+hex travel cidna
+hex pickup
+hex money
+hex inventory
+end

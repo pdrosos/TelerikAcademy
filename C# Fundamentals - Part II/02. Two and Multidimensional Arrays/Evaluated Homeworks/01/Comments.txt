@@ -1,0 +1,29 @@
+Зад. 1
+Работи вярно.
+Бонус за решената с DFS подточка d).
+
+Зад. 2
+Работи вярно.
+
+Зад. 3
+Работи вярно.
+
+Зад. 4
+Работи вярно.
+Препоръка: не е нужно да се ползва цикъл, за да се намери числото. Може да погледнеш тук за приложенията на BinarySearch:
+http://msdn.microsoft.com/en-us/library/y15ef976.aspx
+1. If resultIndex > 0, then resultIndex is the index of the array element that is equal to k
+2. If resultIndex < 0 and Abs(resultIndex) <= numbers.Length, then ~Array.BinarySearch(numbers, k) is the index of the first number within the array that is larger than k
+3. If resultIndex < 0 and Abs(resultIndex) > numbers.Length, then all array elements are < k;
+
+Зад. 5
+Работи вярно.
+
+Зад. 6
+Работи вярно.
+
+Зад. 7
+Работи вярно.
+
+Обобщение:
+Домашното е написано много добре. Форматирането е много добро, с коментари. Решени са и задачите със звездичка.

@@ -1,0 +1,10 @@
+{
+  "name": "Exam2013Variant01",
+  "version": "0.0.0",
+  "description": "Exam2013Variant01",
+  "main": "01.SequencesV1.js",
+  "author": {
+    "name": "IvayloBotusharov",
+    "email": ""
+  }
+}

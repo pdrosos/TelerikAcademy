@@ -1,0 +1,116 @@
+Semantic elements are not used for stylig. Use divs instead. Wrap semantic elements in divs to style, or put divs inside semantic elements.
+
+<header>
+    <h1>The most important heading of this page</h1>
+</header>
+
+<section>
+    <header>
+        <h2>Second level heading</h2>
+    </header>
+    
+    <article>
+        <header>
+            <h3>Article heading</h3>
+        </header>
+
+        <p>Article text</p>
+        
+        <footer>
+            
+        </footer>
+    </article>
+    
+    <footer></footer>
+
+</section>
+
+<footer>
+    <ul>
+        <li>copyright</li>
+        <li>sitemap</li>
+        <li>contact</li>
+    </ul>
+</footer>
+
+=======
+
+<hgroup> - огражда само headings, групи от заглавия със сходно съдържание
+    <h1>Title goes here</h1>
+    <h2>Subtitle goes here</h2>
+</hgroup>
+
+=======
+
+<nav> - основна навигация, използва се само 1 път в страницата. Обикновено в хедъра, може и в <aside>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Block</a></li>
+    </ul>
+</nav>
+
+=======
+
+<aside> - secondary content, related to main content (for example sites, related to the main content), not requred to be a sidrebar!
+    <h2>Blogroll</h2>
+    <ul>
+        <li><a href="#">My friends</a></li>
+        <li><a href="#">My other friends</a></li>
+        <li><a href="#">My best friends</a></li>
+    </ul>
+</aside>
+
+========
+
+<figure>
+    <img src="/macaque.jpg" />
+
+    <figcaption> - semantic description of the image
+        A cheeky macaque, Kower Kintaganban
+        River, Borneo.
+    </figcaption>
+</figure>
+
+=======
+
+<address> - адреси към ресурси, например външни линкове, може да се ползва многократно, например след всяка статия (article)
+    <a href="http://html5doctor.com/author/jacko">Jack Osborne</a>,
+    <a href="http://html5doctor.com/author/richc">Rich Clark</a>,
+    <a href="http://html5doctor.com/author/miker">Mike Robinson</a>,
+    <a href="http://html5doctor.com/author/toml">Tom Leadbetter</a>,
+    <a href="http://html5doctor.com/author/brucel">Bruce Lawson</a>,
+    <a href="http://html5doctor.com/author/remys">Remy Sharp</a>,
+    <a href="http://html5doctor.com/author/olib">Oli Studholme</a>
+</address>
+
+=======
+
+<time>2009-11-13</time>
+ <!-- without @datetime content must be a valid date, time, or precise datetime -->
+<time datetime="2009-11-13">13<sup>th</sup> November</time>
+ <!-- when using @datetime the content can be anything relevant -->
+<time datetime="20:00">starting at 8pm</time>
+ <!-- time example -->
+<time datetime="2009-11-13T20:00+00:00">8pm on my birthday</time>
+ <!-- datetime with time-zone example -->
+<time datetime="2009-11-13T20:00Z">8pm on my birthday</time>
+ <!-- datetime with time-zone “Z” -->
+ 
+ =======
+ 
+ <bdi>
+ 
+ =======
+ 
+ <command>
+ 
+ =======
+ 
+ <details>
+ 
+ =======
+ 
+ ....
+ 
+ http://www.w3schools.com/html/html5_new_elements.asp

@@ -1,0 +1,8 @@
+empty
+95
+neededArmor
+honeybrewIron
+neededArmor
+honeybrewIron
+85
+115

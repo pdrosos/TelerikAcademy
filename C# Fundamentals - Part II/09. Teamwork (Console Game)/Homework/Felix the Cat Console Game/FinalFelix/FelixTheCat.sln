@@ -1,0 +1,95 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackHole", "BlackHole\BlackHole.csproj", "{2BE3C7A3-8F56-44BC-B26D-6CE8FF7F762B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainMenu", "menu\MainMenu\MainMenu\MainMenu.csproj", "{68B19A39-E459-4037-996F-8B9893E843D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Felix_Ivan", "MarhFelix\Felix_Ivan\Felix_Ivan.csproj", "{8589241D-3BA2-4FD3-B5C4-DA3EE6AEF62C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestYourReflexes", "TestYourReflexes\TestYourReflexes\TestYourReflexes.csproj", "{422A968D-2E29-423B-B078-C24139B40919}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KittysGame", "FelixEnglishKatalina\KittysGame\KittysGame.csproj", "{82F13021-C75D-4D79-A30B-EF72E0DA8055}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionGame", "ActionGame\ActionGame\ActionGame.csproj", "{C0A4A367-051A-4BB9-A579-654989408CBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "textFiles", "textFiles", "{7AAA7444-DFF8-491D-BE26-DE560B886CF2}"
+	ProjectSection(SolutionItems) = preProject
+		textFiles\answers.txt = textFiles\answers.txt
+		textFiles\example.txt = textFiles\example.txt
+		textFiles\input_symbols.txt = textFiles\input_symbols.txt
+		textFiles\Questions.txt = textFiles\Questions.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{2DB8FB69-CF5C-448A-AC10-D9FEFF615B28}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\images\Action.png = Documentation\images\Action.png
+		Documentation\images\BlackHole.png = Documentation\images\BlackHole.png
+		Documentation\docu_styles.css = Documentation\docu_styles.css
+		Documentation\documentation.html = Documentation\documentation.html
+		Documentation\images\EnglishTest.png = Documentation\images\EnglishTest.png
+		Documentation\images\felix.gif = Documentation\images\felix.gif
+		Documentation\images\Math.png = Documentation\images\Math.png
+		Documentation\images\Menu.png = Documentation\images\Menu.png
+		Documentation\images\TestYourReflexes.png = Documentation\images\TestYourReflexes.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://felixgame.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ActionGame\\ActionGame\\ActionGame.csproj
+		SccProjectName1 = ActionGame/ActionGame
+		SccLocalPath1 = ActionGame\\ActionGame
+		SccProjectUniqueName2 = BlackHole\\BlackHole.csproj
+		SccProjectName2 = BlackHole
+		SccLocalPath2 = BlackHole
+		SccProjectUniqueName3 = FelixEnglishKatalina\\KittysGame\\KittysGame.csproj
+		SccProjectName3 = FelixEnglishKatalina/KittysGame
+		SccLocalPath3 = FelixEnglishKatalina\\KittysGame
+		SccProjectUniqueName4 = MarhFelix\\Felix_Ivan\\Felix_Ivan.csproj
+		SccProjectName4 = MarhFelix/Felix_Ivan
+		SccLocalPath4 = MarhFelix\\Felix_Ivan
+		SccProjectUniqueName5 = menu\\MainMenu\\MainMenu\\MainMenu.csproj
+		SccProjectName5 = menu/MainMenu/MainMenu
+		SccLocalPath5 = menu\\MainMenu\\MainMenu
+		SccProjectUniqueName6 = TestYourReflexes\\TestYourReflexes\\TestYourReflexes.csproj
+		SccProjectName6 = TestYourReflexes/TestYourReflexes
+		SccLocalPath6 = TestYourReflexes\\TestYourReflexes
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BE3C7A3-8F56-44BC-B26D-6CE8FF7F762B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BE3C7A3-8F56-44BC-B26D-6CE8FF7F762B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BE3C7A3-8F56-44BC-B26D-6CE8FF7F762B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BE3C7A3-8F56-44BC-B26D-6CE8FF7F762B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68B19A39-E459-4037-996F-8B9893E843D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B19A39-E459-4037-996F-8B9893E843D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68B19A39-E459-4037-996F-8B9893E843D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68B19A39-E459-4037-996F-8B9893E843D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8589241D-3BA2-4FD3-B5C4-DA3EE6AEF62C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8589241D-3BA2-4FD3-B5C4-DA3EE6AEF62C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8589241D-3BA2-4FD3-B5C4-DA3EE6AEF62C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8589241D-3BA2-4FD3-B5C4-DA3EE6AEF62C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{422A968D-2E29-423B-B078-C24139B40919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{422A968D-2E29-423B-B078-C24139B40919}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{422A968D-2E29-423B-B078-C24139B40919}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{422A968D-2E29-423B-B078-C24139B40919}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82F13021-C75D-4D79-A30B-EF72E0DA8055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82F13021-C75D-4D79-A30B-EF72E0DA8055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82F13021-C75D-4D79-A30B-EF72E0DA8055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82F13021-C75D-4D79-A30B-EF72E0DA8055}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0A4A367-051A-4BB9-A579-654989408CBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0A4A367-051A-4BB9-A579-654989408CBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0A4A367-051A-4BB9-A579-654989408CBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0A4A367-051A-4BB9-A579-654989408CBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

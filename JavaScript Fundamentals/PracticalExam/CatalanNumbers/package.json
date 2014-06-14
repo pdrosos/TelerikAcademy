@@ -1,0 +1,10 @@
+{
+  "name": "CatalanNumbers",
+  "version": "0.0.0",
+  "description": "CatalanNumbers",
+  "main": "app.js",
+  "author": {
+    "name": "Pavlina",
+    "email": ""
+  }
+}

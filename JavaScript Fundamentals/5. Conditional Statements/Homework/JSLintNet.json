@@ -1,0 +1,15 @@
+﻿{
+  "ignore": [
+    "\\Homework\\libraries\\"
+  ],
+  "options": {
+    "predef": {
+      "jsConsole": false
+    },
+    "browser": true,
+    "devel": true
+  },
+  "runOnSave": true,
+  "runOnBuild": true,
+  "cancelBuild": true
+}

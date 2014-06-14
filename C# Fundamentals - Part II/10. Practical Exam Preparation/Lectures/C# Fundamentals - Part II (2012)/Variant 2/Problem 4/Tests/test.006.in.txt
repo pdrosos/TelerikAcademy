@@ -1,0 +1,103 @@
+101
+@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Barycenter
+{
+    class Point
+    {
+        public double X;
+        public double Y;
+
+        Point(double x = 0, double y = 0)
+        {
+            this.X = x;
+            this.Y = y;
+        }
+
+        public override string ToString()
+        {
+            return this.X + " " + this.Y;
+        }
+    }
+
+    class IntPoint
+    {
+        public int X;
+        public int Y;
+
+        public IntPoint(int x = 0, int y = 0)
+        {
+            this.X = x;
+            this.Y = y;
+        }
+
+        public override string ToString()
+        {
+            return this.X + " " + this.Y;
+        }
+
+        public static IntPoint operator +(IntPoint a, IntPoint b)
+        {
+            return new IntPoint(a.X + b.X, a.Y + b.Y);
+        }
+    }
+
+    class Program
+    {
+        static Random rand = new Random();
+
+        static int maxPointCoords = 1000000;
+        static int minPointCoords = -1000000;
+
+        public static IntPoint GenerateRandomPoint()
+        {
+            return new IntPoint(rand.Next(minPointCoords, maxPointCoords), rand.Next(minPointCoords, maxPointCoords));
+        }
+
+        public static void GenerateTest(string testName, int pointsCount)
+        {
+            IntPoint[] points = new IntPoint[pointsCount];
+
+            IntPoint sumVector = new IntPoint();
+
+            for (int i = 0; i < pointsCount; i++)
+            {
+                points[i] = GenerateRandomPoint();
+                sumVector += points[i];
+            }
+
+            double centerX = sumVector.X / (double)pointsCount;
+            double centerY = sumVector.Y / (double)pointsCount;
+
+            string contents = "";
+
+            contents += pointsCount + "\r\n";
+            for (int i = 0; i < pointsCount; i++)
+            {
+                contents += points[i].ToString() + "\r\n";
+            }
+
+            System.IO.File.WriteAllText(testName + ".in.txt", contents);
+
+            System.IO.File.WriteAllText(testName + ".out.txt", Math.Round(centerX, 2) + " " + Math.Round(centerY, 2));
+        }
+
+        static void Main(string[] args)
+        {
+            for (int i = 1; i <= 9; i++)
+            {
+                GenerateTest("test.0" + i, i * 100);
+            }
+
+            for (int i = 10; i <= 20; i++)
+            {
+                GenerateTest("test." + i, i * 500);
+            }
+        }
+    }
+}

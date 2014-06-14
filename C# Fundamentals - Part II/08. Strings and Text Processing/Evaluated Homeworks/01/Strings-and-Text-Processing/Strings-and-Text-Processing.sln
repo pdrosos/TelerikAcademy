@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02StreingReverserer", "02StreingReverserer\02StreingReverserer.csproj", "{6992999A-A5F8-4D8C-BEC0-42C3985B10D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03CorrectBracketsChecker", "03CorrectBracketsChecker\03CorrectBracketsChecker.csproj", "{AEDB59F2-A993-48A0-A97C-CD61249DC814}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05TagProcessor", "05TagProcessor\05TagProcessor.csproj", "{CCF0D20D-EA43-47DB-801E-4CE6702C6A95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04SubstringSearchEngine", "04SubstringSearchEngine\04SubstringSearchEngine.csproj", "{12755945-D0A0-4733-9562-CEB5969FCF85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6992999A-A5F8-4D8C-BEC0-42C3985B10D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6992999A-A5F8-4D8C-BEC0-42C3985B10D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6992999A-A5F8-4D8C-BEC0-42C3985B10D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6992999A-A5F8-4D8C-BEC0-42C3985B10D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEDB59F2-A993-48A0-A97C-CD61249DC814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEDB59F2-A993-48A0-A97C-CD61249DC814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEDB59F2-A993-48A0-A97C-CD61249DC814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEDB59F2-A993-48A0-A97C-CD61249DC814}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCF0D20D-EA43-47DB-801E-4CE6702C6A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCF0D20D-EA43-47DB-801E-4CE6702C6A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCF0D20D-EA43-47DB-801E-4CE6702C6A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCF0D20D-EA43-47DB-801E-4CE6702C6A95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12755945-D0A0-4733-9562-CEB5969FCF85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12755945-D0A0-4733-9562-CEB5969FCF85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12755945-D0A0-4733-9562-CEB5969FCF85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12755945-D0A0-4733-9562-CEB5969FCF85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

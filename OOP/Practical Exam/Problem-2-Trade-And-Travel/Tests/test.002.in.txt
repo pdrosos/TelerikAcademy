@@ -1,0 +1,9 @@
+create location town whiterun
+create item weapon bigMeech whiterun
+create traveller dragonborn whiterun
+create shopkeeper arcadia whiterun
+dragonborn pickup
+dragonborn inventory
+dragonborn sell bigMeech arcadia
+arcadia money
+end

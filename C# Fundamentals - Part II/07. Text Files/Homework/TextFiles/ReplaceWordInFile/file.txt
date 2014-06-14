@@ -1,0 +1,2 @@
+Start string will be replaced with finish string.
+Startup won't be replaced.

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <title>04. Max increasing sequence</title>
+        <link rel="stylesheet" type="text/css" href="css/jsConsoleStyles.css" />
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    </head>
+    <body>
+        <header>
+            <h2>JavaScript Console</h2>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+            </nav>
+            <div id="javascript-ninja"></div>
+        </header>
+        <div id="wrapper">
+            <aside>
+                <ul>
+                    <li><a href="01.InitializeArrayElements.html">01. Initialize array elements</a></li>
+                    <li><a href="02.CompareCharArrays.html">02. Compare char arrays</a></li>
+                    <li><a href="03.MaxSequenceEqualElements.html">03. Max sequence of equal elements</a></li>
+                    <li><a href="04.MaxIncreasingSequence.html">04. Max increasing sequence</a></li>
+                    <li><a href="05.SelectionSort.html">05. Selection sort</a></li>
+                    <li><a href="06.MostFrequentNumber.html">06. Most frequent number</a></li>
+                    <li><a href="07.ElementIndexBinarySearch.html">07. Element index (binary search)</a></li>
+                </ul>
+            </aside>
+            <section>
+                <article>
+                    <h3>Max increasing sequence</h3>
+                    <p>
+                        Write a script that finds the maximal increasing sequence in an array. 
+                        Example: {3, 2, 3, 4, 2, 2, 4} -&gt; {2, 3, 4}. 
+                        Write the array elements in the field below separating each value by comma, for example: 2, 1, 4, 7, 3
+                    </p>
+                    <form>
+                        <label for="number-seq">Sequence: </label>
+                        <input type="text" id="number-seq" onkeydown="return jsConsole.searchKeyPress(event);" />
+                        <input type="button" id="process" value="Process" />
+                        <input type="button" onclick="jsConsole.clearAll()" id="clear" value="Clear" />
+                    </form>
+                </article>
+                <div id="js-console">
+                </div>
+            </section>
+        </div>
+        <footer></footer>
+        <script type="text/javascript" src="js/js-console.js"></script>
+        <script type="text/javascript" src="js/userValidation.js"></script>
+        <script type="text/javascript" src="js/04.MaxIncreasingSequence.js"></script>
+    </body>
+</html>

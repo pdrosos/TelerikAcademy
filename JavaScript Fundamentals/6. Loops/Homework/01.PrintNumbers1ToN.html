@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <title>01. Print numbers 1 to N</title>
+        <link rel="stylesheet" type="text/css" href="css/jsConsoleStyles.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body>
+        <header>
+            <h2>JavaScript Console</h2>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="wrapper">
+            <aside>
+                <ul>
+                    <li><a href="01.PrintNumbers1ToN.html">01. Print numbers 1 to N</a></li>
+                    <li><a href="02.PrintNumbersNotDivisibleBy3and7.html">02. Print numbers not divisible by 3 and 7</a></li>
+                    <li><a href="03.NumberSequenceMaxMin.html">03. Number sequence max and min</a></li>
+                    <li><a href="04.LexicographicallySmallestLargestProperty.html">04. Lexicographically smallest and largest property</a></li>
+                </ul>
+            </aside>
+            <section>
+                <article>
+                    <h3>Print numbers from 1 to N</h3>
+                    <p>Write a script that prints all the numbers from 1 to N</p>
+                    <form>
+                        <label for="number">Enter N:</label>
+                        <input type="text" id="number" onkeydown="return jsConsole.searchKeyPress(event);" />
+                        <input type="button" id="process" value="Process" />
+                        <input type="button" onclick="jsConsole.clearAll()" id="clear" value="Clear" />
+                    </form>
+                </article>
+                <div id="js-console">
+                </div>
+            </section>
+        </div>
+        <footer></footer>
+        <script type="text/javascript" src="js/js-console.js"></script>
+        <script type="text/javascript" src="js/userValidation.js"></script>
+        <script type="text/javascript" src="js/01.PrintNumbers1ToN.js"></script>
+    </body>
+</html>

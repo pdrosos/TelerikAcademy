@@ -1,0 +1,26 @@
+Зад. 1
+Работи вярно.
+
+Зад. 2
+Работи вярно.
+
+Зад. 3
+Работи вярно.
+
+Зад. 4
+Не работи вярно във всички случаи - работи само ако е намерено точно съвпадение. Пробвай с n = 6, k = 4 и масив { 1, 2, 3, 7, 1, 8 }. Програмата връща резултат 7, а трябва да върне 3.
+Може да погледнеш тук за приложенията на BinarySearch:
+http://msdn.microsoft.com/en-us/library/y15ef976.aspx
+1. If resultIndex > 0, then resultIndex is the index of the array element that is equal to k
+2. If resultIndex < 0 and Abs(resultIndex) <= numbers.Length, then ~Array.BinarySearch(numbers, k) is the index of the first number within the array that is larger than k
+3. If resultIndex < 0 and Abs(resultIndex) > numbers.Length, then all array elements are < k;
+
+Зад. 5
+Работи вярно.
+Препоръка: вместо да пишеш собствено сортиране, може и да се използва и вградения метод Array.Sort() с метод делегат -  http://msdn.microsoft.com/en-us/library/cxt053xf.aspx 
+Array.Sort(stringArray, (firstElement, secondElement) => firstElement.Length.CompareTo(secondElement.Length));
+
+Обобщение:
+Задачите като цяло работят, но липсват коментари и съобщения за потребителя какво се очаква да въведе.
+Проверяването беше затруднено, защото при отваряне на solution файла в него се виждат незаредени проекти с други задачи, които не са част от домашното, а задачите от самото домашно липсват напълно и трябва да се търсят и отварят по отделно от директориите си, проект по проект. В един от проектите файла със сорс кода липсваше, въпреки, че беше в директорията и трябваше да се зареди ръчно. 
+Препоръчвам да внимаваш повече при създаването на нов проект и solution и за всяко ново домашно да ги създаваш наново, а не да ги копираш от предишни домашни, за да не се получават такива грешки.

@@ -1,0 +1,174 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* End of CSS Reset */
+
+body {
+  font-size: 18px;  
+  font-family: Arial
+}
+
+#root {
+  width: 610px;
+  margin: 50px auto;
+}
+
+#root > h1
+{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    color: #2AA0BD;
+    margin-bottom: 25px;
+}
+
+#me
+{
+    float: left;
+}
+
+#other
+{
+    float: right;
+}
+
+.chat-container
+{
+    position: relative;
+    height: 500px;
+    width: 300px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #4AE871 0,#4AE871 45%,#F1FFBC 75%,#F1FFBC 100%);
+}
+
+.chat-container h2
+{
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color: #2AA0BD;
+    margin-bottom: 25px;
+    margin: 25px 0 40px 0;
+}
+
+.messages
+{
+    color: #2AA0BD;
+    line-height: 20px;
+}
+
+.messages li
+{
+    width: 90%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.messages li:not(:last-child)
+{
+    border-bottom: 1px solid #000000;
+}
+
+.messages .me
+{
+    float: left;
+    text-align: left;
+}
+
+.messages .other
+{
+    float: right;
+    text-align: right;
+}
+
+.messages strong, .messages span
+{
+    display: block;
+}
+
+.messages strong
+{
+    font-style: italic;
+    font-size: 17px;
+}
+
+.sent-message
+{
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+}
+
+.sent-message input, .sent-message button
+{
+    border: 1px solid #CCCCCC;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #F1FFBC;
+    font-size: 20px;
+    color: #2AA0BD;
+}
+
+.sent-message input
+{
+    width: 185px;
+    height: 35px;
+    padding-left: 15px;
+}
+
+.sent-message button
+{
+    width: 75px;
+    height: 40px;    
+}
+
+.sent-message button:hover
+{
+    background: linear-gradient(to bottom, #4AE871 0,#4AE871 12%,#55E975 18%,#F1FFBC 76%,#F1FFBC 100%);
+}

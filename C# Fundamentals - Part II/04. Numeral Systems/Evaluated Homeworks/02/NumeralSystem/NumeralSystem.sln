@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.ConvertsNumeralSys", "NumeralSystem\07.ConvertsNumeralSys.csproj", "{4343DD11-6872-44C1-8FEA-93C889B8A661}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.Converts16toBinary", "08.Converts16toBinary\08.Converts16toBinary.csproj", "{9FF2E4A5-BEC8-4A6B-9A2C-5657489E6464}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4343DD11-6872-44C1-8FEA-93C889B8A661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4343DD11-6872-44C1-8FEA-93C889B8A661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4343DD11-6872-44C1-8FEA-93C889B8A661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4343DD11-6872-44C1-8FEA-93C889B8A661}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FF2E4A5-BEC8-4A6B-9A2C-5657489E6464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FF2E4A5-BEC8-4A6B-9A2C-5657489E6464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FF2E4A5-BEC8-4A6B-9A2C-5657489E6464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FF2E4A5-BEC8-4A6B-9A2C-5657489E6464}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

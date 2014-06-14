@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Table with colspan and rowspan</title>
+    <link rel="stylesheet" type="text/css" href="styles/table.css" media="screen" />
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="3">Title goes here</td>
+            <td>A</td>
+            <td class="right">B</td>
+        </tr>
+        <tr>
+            <td rowspan="3">C</td>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+            <td class="right">G</td>
+        </tr>
+        <tr>
+            <td>H</td>
+            <td class="center" colspan="2">I</td>
+            <td class="right bottom" rowspan="2">J</td>
+        </tr>
+        <tr>
+            <td>K</td>
+            <td>L</td>
+            <td>M</td>
+        </tr>
+        <tr>
+            <td class="right">N</td>
+            <td class="center" colspan="4">O</td>
+        </tr>
+    </table>
+</body>
+</html>

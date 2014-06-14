@@ -1,0 +1,22 @@
+String
+Primitive and object
+--coerce between primitive and obj
+
+string methods
+--slice
+--indexOf and lastIndexOf
+--substr 
+--substring
+--startsWith
+--endsWith
+--replace
+--search
+
+string performance
+--StringBuilder
+
+escaping
+
+Usefull extensions
+--to charCode array
+--

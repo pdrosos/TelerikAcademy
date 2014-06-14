@@ -1,0 +1,26 @@
+create location mine honeybrew
+create location forest ydonwannaknow
+create location town winterhold
+create item armor neededArmor winterhold
+create item weapon neededWeapon winterhold
+create traveller hork honeybrew
+create merchant dra winterhold
+dra pickup
+hork gather unsuccessful
+hork inventory
+dra travel honeybrew
+hork buy neededArmor dra
+hork money
+hork gather honeybrewIron
+hork inventory
+hork travel ydonwannaknow
+hork gather unsuccessfulAgain
+hork inventory
+dra travel ydonwannaknow
+hork buy neededWeapon dra
+hork money
+dra money
+hork gather ydonwannaknowWood
+hork craft weapon someWeirdWeapon
+hork sell someWeirdWeapon dra
+end

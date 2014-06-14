@@ -1,0 +1,12 @@
+Здравей,
+
+Всички задачи са решени. Единствената ми забележка е, че в класа Student в метода Clone() имаш няколко излишни каствания, които не са нужни:
+
+newStudent.facNumber = (int)this.facNumber;//value type
+newStudent.age = (int)this.age;//value type
+newStudent.course = (Course)this.course;
+newStudent.specialty = (Specialty)this.specialty;
+newStudent.uni = (University)this.uni;
+newStudent.faculty = (Faculty)this.faculty;
+
+Успех в академията!

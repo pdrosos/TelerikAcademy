@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 11.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2013-10-22T22:55:55" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: '56eda50c-59ae-4e13-8206-fa8ae01dec38' -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: '58961903-2666-4aff-aa97-3f9bfdaf1577' -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'a20a6a8a-773d-43c5-9634-2ec916cc9bae' -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Boolean' -  (PrimitiveType)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Integer' -  (PrimitiveType)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School' -  (Package)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Medium" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Human' -  (Class)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Human::comment' -  (Property)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Human::Comment' -  (Property)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Human::Human' -  (Operation)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Human::Human::comment' -  (Parameter)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Human::Human::name' -  (Parameter)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Human::name' -  (Property)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Human::Name' -  (Property)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Medium" Text="Element reverse engineered into the UML model: 'SchoolModel::School::ICommentable' -  (Interface)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::ICommentable::Comment' -  (Property)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Medium" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Program' -  (Class)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Program::Main' -  (Operation)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Program::Program' -  (Operation)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Medium" Text="Element reverse engineered into the UML model: 'SchoolModel::School::School' -  (Class)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::School::classes' -  (Property)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::School::Classes' -  (Property)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::School::School' -  (Operation)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::School::School::classes' -  (Parameter)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::School::ToString' -  (Operation)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Medium" Text="Element reverse engineered into the UML model: 'SchoolModel::School::SchoolClass' -  (Class)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::SchoolClass::comment' -  (Property)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::SchoolClass::Comment' -  (Property)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::SchoolClass::SchoolClass' -  (Operation)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::SchoolClass::SchoolClass::comment' -  (Parameter)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::SchoolClass::SchoolClass::students' -  (Parameter)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::SchoolClass::SchoolClass::teachers' -  (Parameter)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::SchoolClass::SchoolClass::textId' -  (Parameter)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::SchoolClass::students' -  (Property)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::SchoolClass::Students' -  (Property)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::SchoolClass::teachers' -  (Property)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::SchoolClass::Teachers' -  (Property)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::SchoolClass::textId' -  (Property)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::SchoolClass::TextId' -  (Property)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::SchoolClass::ToString' -  (Operation)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Medium" Text="Element reverse engineered into the UML model: 'SchoolModel::School::SchoolTest' -  (Class)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::SchoolTest::CreateClass' -  (Operation)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::SchoolTest::CreateClass::textId' -  (Parameter)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::SchoolTest::CreateClasses' -  (Operation)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::SchoolTest::CreateName' -  (Operation)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::SchoolTest::CreateSchool' -  (Operation)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::SchoolTest::CreateStudent' -  (Operation)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::SchoolTest::CreateStudent::classNumber' -  (Parameter)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::SchoolTest::CreateStudentsSet' -  (Operation)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::SchoolTest::CreateSubject' -  (Operation)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::SchoolTest::CreateSubjectsSet' -  (Operation)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::SchoolTest::CreateTeacher' -  (Operation)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::SchoolTest::CreateTeachersSet' -  (Operation)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::SchoolTest::random' -  (Property)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::SchoolTest::SchoolTest' -  (Operation)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Medium" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Student' -  (Class)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Student::classNumber' -  (Property)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Student::ClassNumber' -  (Property)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Student::Student' -  (Operation)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Student::Student::classNumber' -  (Parameter)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Student::Student::comment' -  (Parameter)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Student::Student::name' -  (Parameter)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Student::ToString' -  (Operation)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Medium" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Subject' -  (Class)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Subject::comment' -  (Property)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Subject::Comment' -  (Property)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Subject::Equals' -  (Operation)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Subject::Equals::subject' -  (Parameter)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Subject::exercisesNumber' -  (Property)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Subject::ExercisesNumber' -  (Property)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Subject::lecturesNumber' -  (Property)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Subject::LecturesNumber' -  (Property)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Subject::name' -  (Property)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Subject::Name' -  (Property)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Subject::Subject' -  (Operation)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Subject::Subject::comment' -  (Parameter)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Subject::Subject::exercisesNumber' -  (Parameter)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Subject::Subject::lecturesNumber' -  (Parameter)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Subject::Subject::name' -  (Parameter)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Medium" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Teacher' -  (Class)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Teacher::subjectsSet' -  (Property)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Teacher::SubjectsSet' -  (Property)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Teacher::Teacher' -  (Operation)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Teacher::Teacher::comment' -  (Parameter)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Teacher::Teacher::name' -  (Parameter)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Teacher::Teacher::subjectsSet' -  (Parameter)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::School::Teacher::ToString' -  (Operation)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::System' -  (Package)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::System::Collections' -  (Package)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::System::Collections::Generic' -  (Package)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::System::Collections::Generic::List' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::System::Collections::Generic::List&lt;SchoolClass‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::System::Collections::Generic::List&lt;Student‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::System::Collections::Generic::List&lt;Subject‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::System::Collections::Generic::List&lt;Teacher‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::System::IEquatable' -  (Interface)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::System::IEquatable&lt;Subject‎&gt;' -  (Interface)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::System::Nullable' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::System::Nullable&lt;Int32‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SchoolModel::System::Random' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: SchoolModel::School::Human to SchoolModel::School::ICommentable (InterfaceRealization)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: SchoolModel::School::School to SchoolModel::System::Collections::Generic::List&lt;SchoolClass‎&gt; (Association)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: SchoolModel::School::SchoolClass to SchoolModel::System::Collections::Generic::List&lt;Student‎&gt; (Association)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: SchoolModel::School::SchoolClass to SchoolModel::System::Collections::Generic::List&lt;Teacher‎&gt; (Association)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: SchoolModel::School::SchoolClass to SchoolModel::School::ICommentable (InterfaceRealization)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: SchoolModel::School::Student to SchoolModel::System::Nullable&lt;Int32‎&gt; (Association)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: SchoolModel::School::Student to SchoolModel::School::ICommentable (InterfaceRealization)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: SchoolModel::School::Student to SchoolModel::School::Human (Generalization)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: SchoolModel::School::Teacher to SchoolModel::System::Collections::Generic::List&lt;Subject‎&gt; (Association)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: SchoolModel::School::Teacher to SchoolModel::School::ICommentable (InterfaceRealization)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: SchoolModel::School::Teacher to SchoolModel::School::Human (Generalization)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: SchoolModel::School::Subject to SchoolModel::System::Nullable&lt;Int32‎&gt; (Association)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: SchoolModel::School::Subject to SchoolModel::System::Nullable&lt;Int32‎&gt; (Association)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: SchoolModel::School::Subject to SchoolModel::System::IEquatable&lt;Subject‎&gt; (InterfaceRealization)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: SchoolModel::School::Subject to SchoolModel::School::ICommentable (InterfaceRealization)" />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="High" Text="(9) type(s) fully reverse engineered." />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="High" Text="(10) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2013-10-22T22:55:59" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>

@@ -1,0 +1,47 @@
+for (var i = 0; i < input.length; i++) {
+        
+  //some code
+
+    for (var j = 0; j < currentRow.length; j++) {
+       
+       //some code
+
+        if (currentSymbol == '(') //some code
+
+        if (currentSymbol === ' ' || currentSymbol === ')') {
+            if (currentFunctionName !== '') //some code
+
+            if (currentDigit !== '') //some code
+
+            if (currentSymbol == ')' && currentNewFunction !==  '')  //some code
+
+            if (inNestedCommand && currentSymbol == ')') //some code
+
+            continue;
+        }
+
+        if (isMathOperator(currentSymbol)) {
+
+            //some code
+            continue;
+        }
+
+        if (isNumber(currentSymbol)) {
+
+            //some code
+            continue;
+        }
+
+        currentFunctionName += currentSymbol;
+    }
+
+    finalResult = calculate(operator, parameters);
+
+    //some code
+}
+
+return finalResult;
+
+function isMathOperator(symbol) {}
+function isNumber(symbol) {}
+function calculate(operator, parameters) {}

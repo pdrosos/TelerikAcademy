@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.HTMLRenderer", "01.HTMLRenderer\01.HTMLRenderer.csproj", "{31F20C26-EABB-4120-B4A4-1DD53E015CE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.SoftwareAcademy", "02.SoftwareAcademy\02.SoftwareAcademy.csproj", "{FCE15749-6E13-4223-A3CE-A5A1EE88DF5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.DocumentSystem", "03.DocumentSystem\03.DocumentSystem.csproj", "{72CD8887-B3AC-4D23-A7EC-B91EB6A73AD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.AcademyRPG", "04.AcademyRPG\04.AcademyRPG.csproj", "{D61A67C2-B4A1-4A3F-ACC0-E7D881B1DD34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.AcademyEcosystem", "05.AcademyEcosystem\05.AcademyEcosystem.csproj", "{28A9D049-4ADC-4364-8F47-1470A8593B6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.AcademyGeometry", "06.AcademyGeometry\06.AcademyGeometry.csproj", "{F7F5BFC1-1607-4517-ABEA-97A19DD2FFF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31F20C26-EABB-4120-B4A4-1DD53E015CE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31F20C26-EABB-4120-B4A4-1DD53E015CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31F20C26-EABB-4120-B4A4-1DD53E015CE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31F20C26-EABB-4120-B4A4-1DD53E015CE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCE15749-6E13-4223-A3CE-A5A1EE88DF5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCE15749-6E13-4223-A3CE-A5A1EE88DF5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCE15749-6E13-4223-A3CE-A5A1EE88DF5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCE15749-6E13-4223-A3CE-A5A1EE88DF5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72CD8887-B3AC-4D23-A7EC-B91EB6A73AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72CD8887-B3AC-4D23-A7EC-B91EB6A73AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72CD8887-B3AC-4D23-A7EC-B91EB6A73AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72CD8887-B3AC-4D23-A7EC-B91EB6A73AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D61A67C2-B4A1-4A3F-ACC0-E7D881B1DD34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D61A67C2-B4A1-4A3F-ACC0-E7D881B1DD34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D61A67C2-B4A1-4A3F-ACC0-E7D881B1DD34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D61A67C2-B4A1-4A3F-ACC0-E7D881B1DD34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28A9D049-4ADC-4364-8F47-1470A8593B6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A9D049-4ADC-4364-8F47-1470A8593B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A9D049-4ADC-4364-8F47-1470A8593B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A9D049-4ADC-4364-8F47-1470A8593B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7F5BFC1-1607-4517-ABEA-97A19DD2FFF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7F5BFC1-1607-4517-ABEA-97A19DD2FFF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7F5BFC1-1607-4517-ABEA-97A19DD2FFF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7F5BFC1-1607-4517-ABEA-97A19DD2FFF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

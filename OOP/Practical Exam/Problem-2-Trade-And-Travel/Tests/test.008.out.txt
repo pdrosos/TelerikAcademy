@@ -1,0 +1,7 @@
+mArmor
+mWeapon
+cidnaIron
+mArmor
+mWeapon
+cidnaIron
+dragonscale

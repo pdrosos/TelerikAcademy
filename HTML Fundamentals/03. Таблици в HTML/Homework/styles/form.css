@@ -1,0 +1,27 @@
+﻿body {
+    font-family: 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+.row {
+    margin-bottom: 5px;
+}
+
+.required {
+    font-weight: bold;
+}
+
+.button {
+    background-image: url(../images/submit-button.png);
+    background-repeat: no-repeat;
+    color: transparent;
+    border: 0;
+    text-indent: -1000px;
+    display: block;
+    font-size: 0px;
+    line-height: 0px;
+    width: 92px;
+    height: 26px;
+    overflow: hidden;
+    cursor: pointer;
+}

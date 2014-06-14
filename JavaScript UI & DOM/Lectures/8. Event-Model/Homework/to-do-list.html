@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>TODO List</title>
+</head>
+<body onload="onLoad()">
+    <form action="/" method="post">
+        <label for="task">New TODO task:</label>
+        <input id="task" type="text" />
+        <input id="add-button" type="button" value="Add" /><br />
+        <input id="remove-button" type="button" value="Remove" />
+        <input id="hide-button" type="button" value="Hide" />
+        <input id="show-button" type="button" value="Show" />
+    </form>
+    <div id="task-board">
+        <ul id="task-list">
+            <li>Task One</li>
+        </ul>
+    </div>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>

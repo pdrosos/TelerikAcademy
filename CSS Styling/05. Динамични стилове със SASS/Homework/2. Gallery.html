@@ -1,0 +1,79 @@
+﻿<!doctype html>
+<html>
+<head>
+    <title>Gallery</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles/gallery.css" />
+    <script type="text/javascript" src="scripts/modernizr.min.js"></script>
+    <script type="text/javascript" src="scripts/mootools.js"></script>
+    <!--[if (gte IE 6)&(lte IE 8)]>
+    <script type="text/javascript" src="scripts/selectivizr.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <ul id="gallery-container">
+        <li id="gallery-image-1" class="gallery-image">
+            <a href="#gallery-image-1" class="thumbnail">
+                <img src="images/african-lion-thumbnail.jpg" width="135" height="84" alt="African Lion Thumbnail" />
+            </a>
+
+            <a href="images/african-lion-original.jpg" class="big-image">
+                <img src="images/african-lion-original.jpg" width="860" height="538" alt="African Lion Original" />
+            </a>
+        </li>
+
+        <li id="gallery-image-2" class="gallery-image">
+            <a href="#gallery-image-2" class="thumbnail">
+                <img src="images/wild-horses-thumbnail.jpg" width="135" height="84" alt="Female and Male Horses Thumbnail" />
+            </a>
+
+            <a href="images/wild-horses-original.jpg" class="big-image">
+                <img src="images/wild-horses-original.jpg" width="860" height="538" alt="Female and Male Horses Original" />
+            </a>
+        </li>
+
+        <li id="gallery-image-3" class="gallery-image">
+            <a href="#gallery-image-3" class="thumbnail">
+                <img src="images/lion-thumbnail.jpg" width="135" height="84" alt="Lion Thumbnail" />
+            </a>
+
+            <a href="images/lion-original.jpg" class="big-image">
+                <img src="images/lion-original.jpg" width="860" height="538" alt="Lion Original" />
+            </a>
+        </li>
+
+        <li id="gallery-image-4" class="gallery-image">
+            <a href="#gallery-image-4" class="thumbnail">
+                <img src="images/sumatran-tiger-thumbnail.jpg" width="135" height="84" alt="Sumatran Tiger Thumbnail" />
+            </a>
+
+            <a href="images/sumatran-tiger-original.jpg" class="big-image">
+                <img src="images/sumatran-tiger-original.jpg" width="860" height="538" alt="Sumatran Tiger Original" />
+            </a>
+        </li>
+
+        <li id="gallery-image-5" class="gallery-image">
+            <a href="#gallery-image-5" class="thumbnail">
+                <img src="images/bottlenose-dolphins-thumbnail.jpg" width="135" height="84" alt="Bottlenose Dolphins Thumbnail" />
+            </a>
+
+            <a href="images/bottlenose-dolphins-original.jpg" class="big-image">
+                <img src="images/bottlenose-dolphins-original.jpg" width="860" height="538" alt="Bottlenose Dolphins Original" />
+            </a>
+        </li>
+
+        <li id="gallery-image-6" class="gallery-image">
+            <a href="#gallery-image-6" class="thumbnail">
+                <img src="images/polar-baby-bear-thumbnail.jpg" width="135" height="84" alt="Polar Baby Bear Thumbnail" />
+            </a>
+
+            <a href="images/polar-baby-bear-original.jpg" class="big-image">
+                <img src="images/polar-baby-bear-original.jpg" width="860" height="538" alt="Polar Baby Bear Original" />
+            </a>
+        </li>
+    </ul>
+
+    <script>location.hash || location.replace(location + "#gallery-image-1")</script>
+</body>
+</html>

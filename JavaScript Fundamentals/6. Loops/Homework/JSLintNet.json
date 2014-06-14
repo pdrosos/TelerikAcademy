@@ -1,0 +1,9 @@
+﻿{
+  "ignore": [
+    "\\ConditionalStatements\\js\\js-console.js"
+  ],
+  "options": {
+    "predef": {}
+  },
+  "runOnSave": true
+}

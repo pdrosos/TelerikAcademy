@@ -1,0 +1,184 @@
+﻿<!doctype html>
+<html>
+<head>
+    <title>Calculator</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles/calculator.css" />
+    <script type="text/javascript" src="scripts/modernizr.min.js"></script>
+    <script type="text/javascript" src="scripts/mootools.js"></script>
+    <!--[if (gte IE 6)&(lte IE 8)]>
+    <script type="text/javascript" src="scripts/selectivizr.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div id="calculator-window" class="boxshadow">
+        <div class="header clearfix">
+            <span class="icon"></span>
+
+            <h1>Calculator</h1>
+
+            <ul class="window-buttons">
+                <li class="minimize"><a href="#"></a></li>
+                <li class="maximize"><a href="#"></a></li>
+                <li class="close"><a href="#"></a></li>
+            </ul>
+        </div>
+
+        <div id="calculator">
+            <ul class="menu inline">
+                <li><span class="shortcut">V</span>iew</li>
+                <li><span class="shortcut">E</span>dit</li>
+                <li><span class="shortcut">H</span>elp</li>
+            </ul>
+
+            <form class="result box boxshadow">
+                <input type="text" class="code" value="8854455" />
+            </form>
+
+            <div class="binary-number boxshadow box code">
+                <ul class="inline">
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                </ul>
+                <ul class="inline binary-index inactive">
+                    <li>63</li> 
+                    <li>47</li> 
+                    <li>32</li>
+                </ul>
+
+                <ul class="inline">
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>1000</li>
+                    <li>0111</li>
+                    <li>0001</li>
+                    <li>1011</li>
+                    <li>1011</li>
+                    <li>0111</li>
+                </ul>
+                <ul class="inline binary-index inactive">
+                    <li>31</li>
+                    <li>15</li>
+                    <li>0</li>
+                </ul>
+            </div>
+
+            <div class="row">
+                <div class="width2">
+                    <form class="box">
+                        <ul class="nobullet">
+                            <li>
+                                <label><input type="radio" name="numeralSystem" value="hex" /> Hex</label>
+                            </li>
+                            <li>
+                                <label><input type="radio" name="numeralSystem" value="dec" checked="checked" /> Dec</label>
+                            </li>
+                            <li>
+                                <label><input type="radio" name="numeralSystem" value="oct" /> Oct</label>
+                            </li>
+                            <li>
+                                <label><input type="radio" name="numeralSystem" value="bin" /> Bin</label>
+                            </li>
+                        </ul>
+                    </form>
+
+                    <form class="box">
+                        <ul class="nobullet">
+                            <li>
+                                <label><input type="radio" name="wordSize" value="qword" checked="checked" /> Qword</label>
+                            </li>
+                            <li>
+                                <label><input type="radio" name="wordSize" value="dword" /> Dword</label>
+                            </li>
+                            <li>
+                                <label><input type="radio" name="wordSize" value="word" /> Word</label>
+                            </li>
+                            <li>
+                                <label><input type="radio" name="wordSize" value="byte" /> Byte</label>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+
+                <form class="width4">
+                    <div class="row">
+                        <button class="button width1 button-inactive nohover">&nbsp;</button>
+                        <button class="button width1">Mod</button>
+                        <button class="button width1 hex" disabled="disabled">A</button>
+                        <button class="button width1 button-inactive boxshadow">MC</button>
+                        <button class="button width1 button-inactive boxshadow">MR</button>
+                        <button class="button width1 button-inactive boxshadow">MS</button>
+                        <button class="button width1 button-inactive boxshadow">M+</button>
+                        <button class="button width1 button-inactive boxshadow">M-</button>
+                    </div>
+
+                    <div class="row">
+                        <button class="button width1">(</button>
+                        <button class="button width1">)</button>
+                        <button class="button width1 hex" disabled="disabled">B</button>
+                        <button class="button width1"><span class="left-arrow">&larr;</span></button>
+                        <button class="button width1">CE</button>
+                        <button class="button width1">C</button>
+                        <button class="button width1">±</button>
+                        <button class="button width1" disabled="disabled">√</button>
+                    </div>
+
+                    <div class="row">
+                        <button class="button width1">RoL</button>
+                        <button class="button width1">RoR</button>
+                        <button class="button width1 hex" disabled="disabled">C</button>
+                        <button class="button width1 button-bright">7</button>
+                        <button class="button width1 button-bright">8</button>
+                        <button class="button width1 button-bright">9</button>
+                        <button class="button width1">/</button>
+                        <button class="button width1" disabled="disabled">%</button>
+                    </div>
+
+                    <div class="row">
+                        <button class="button width1">Or</button>
+                        <button class="button width1">Xor</button>
+                        <button class="button width1 hex" disabled="disabled">D</button>
+                        <button class="button width1 button-bright">4</button>
+                        <button class="button width1 button-bright">5</button>
+                        <button class="button width1 button-bright">6</button>
+                        <button class="button width1">*</button>
+                        <button class="button width1" disabled="disabled">1/x</button>
+                    </div>
+
+                    <div class="row">
+                        <div class="width3">
+                            <div class="row">
+                                <button class="button width1">Lsh</button>
+                                <button class="button width1">Rsh</button>
+                                <button class="button width1 hex" disabled="disabled">E</button>
+                                <button class="button width1 button-bright">1</button>
+                                <button class="button width1 button-bright">2</button>
+                                <button class="button width1 button-bright">3</button>
+                                <button class="button width1">-</button>
+                            </div>
+
+                            <div class="row">
+                                <button class="button width1">Not</button>
+                                <button class="button width1">And</button>
+                                <button class="button width1 hex" disabled="disabled">F</button>
+                                <button class="width2 button button-bright">0</button>
+                                <button class="button width1" disabled="disabled">.</button>
+                                <button class="button width1">+</button>
+                            </div>
+                        </div>
+
+                        <button class="width1 row2 button"><strong>=</strong></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

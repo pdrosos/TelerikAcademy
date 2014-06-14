@@ -1,0 +1,81 @@
+html, body, div, form, fieldset, input, button, label, legend 
+{
+  margin: 0;
+  padding: 0;
+}
+/* End of CSS Reset */
+
+#wrapper 
+{
+    font-family: Verdana, Geneva, 'DejaVu Sans', sans-serif;
+    width: 960px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 16px;
+    color: #333333;
+}
+
+form 
+{
+    width: 378px;
+    border: 1px solid #333333;
+    border-radius: 15px;
+    padding: 15px;
+    background: linear-gradient(to bottom, #68d1ff 0,#8cfffb 100%);
+    text-align: right;
+}
+
+fieldset
+{
+    border: 3px solid #333333;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+legend
+{
+    font-size: 21px;
+    font-style: italic;
+    margin-right: 25px;
+    padding: 0 15px;
+}
+
+input[type=text], input[type=password], input[type=number]
+{
+    width: 145px;
+    height: 15px;
+    border: 1px solid #008FCE;
+    border-radius: 5px;
+    padding: 5px 15px;
+    background: linear-gradient(to bottom, #69d2ff 0%,#8bfefb 100%);
+}
+
+#tb-age
+{
+    width: 30px;
+    padding: 5px 5px;
+}
+
+label
+{
+    margin-top: 5px;
+    display: inline-block;
+}
+
+button, input[type=reset] 
+{
+    font-size: 1.2em;
+    padding: 5px 15px;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(to bottom, #35c1ff 0, #8cfffb 100%);
+    border-bottom: 1px solid #000000;
+    color: #333333;
+}
+
+button:hover, input[type=reset]:hover 
+{
+    background: #9be1ff;
+}

@@ -1,0 +1,156 @@
+body {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    background-color: #F4F5F5;
+    font-size: 100%;
+}
+
+body, header, aside, section, article, nav, div, p, h1, h2, h3, a, form {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #363231;
+    color: lightgray;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    height: 90px;
+    line-height: 89px;
+}
+
+#javascript-ninja {
+    float: right;
+    background: url("../img/javascript-ninja.png");
+    -moz-background-size: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 110px;
+    height: 80px;
+    border: none;
+    margin-right: 20px;
+}
+
+header h2 {
+    font-size: 18px;
+    font-weight: normal;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav {
+    display: inline-block;
+    margin: 0 50px;
+}
+
+header nav ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: lightgray;
+    padding: 0 25px;
+    outline: 0;
+    display: inline-block;
+}
+
+header nav ul li:hover {
+    background-color: #47443C;
+}
+
+#wrapper {
+    margin: 20px 0;
+}
+
+aside {
+    float: left;
+    margin-left: 20px;
+    margin-right: 70px;
+    min-width: 12%;
+    background-color: #141313;
+}
+
+aside ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+aside ul li {
+    list-style: none;
+    box-shadow: inset 0 -1px 8px 0 #7C7F83;
+}
+
+aside ul > li:not(:last-child) {
+    border-bottom: 1px solid gray;
+}
+
+aside ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 9px 15px;
+    font-size: 1.2em;
+    color: lightgray;
+    outline: 0;
+}
+
+aside ul li a:hover {
+    background-color: #363231;
+}
+
+
+header nav ul:after, #wrapper:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+section {
+    width: 800px;
+    float: left;
+    margin-left: 20px;
+}
+
+section > article {
+    min-height: 135px;
+}
+
+article h1
+{
+    font-size: 1.6em;
+}
+article p {
+    margin: 15px 0;
+}
+
+input[type=button] {
+    border: none;
+    background-color: sienna; 
+    color: white;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 15px;
+    padding: 0 20px;
+}
+
+input[type=button]::-moz-focus-inner {
+    border:0;
+}
+
+input[type=text] {
+    height: 25px;
+    width: 80px;
+    margin-right: 10px;
+}
+
+#fiveVar input[type=text] {
+    height: 25px;
+    width: 40px;
+    margin: 0;
+}

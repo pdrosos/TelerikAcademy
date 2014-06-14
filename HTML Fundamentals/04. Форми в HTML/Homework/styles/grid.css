@@ -1,0 +1,155 @@
+﻿body {
+    font-family: Verdana, Calibri, Arial, sans-serif;
+    font-size: 11px;
+    color: #3B3B3B;
+}
+
+table {
+    min-width: 880px;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+th, td {
+    border-right: 1px solid #D0D7E5;
+    border-bottom: 1px solid #D0D7E5;
+}
+
+thead tr:first-child th {
+    border-top: 1px solid #D0D7E5;
+}
+
+th:first-child, td:first-child {
+    border-left: 1px solid #D0D7E5;
+    width: 50px;
+}
+
+thead tr:first-child th:first-child {
+    border-top-left-radius: 7px;
+}
+
+thead tr:first-child th:last-child {
+    border-top-right-radius: 7px;
+}
+
+tfoot tr:last-child td:first-child {
+    border-bottom-left-radius: 7px;
+}
+
+tfoot tr:last-child td:last-child {
+    border-bottom-right-radius: 7px;
+}
+
+th {
+    font-weight: normal;
+    text-align: left;
+    border-bottom: 1px solid #A4ABB2;
+}
+
+th:not(:last-child) {
+    border-right: 1px solid #A4ABB2;
+}
+
+th input {
+    vertical-align: top;
+}
+
+th input[type="text"] {
+    border: 1px solid #9BABC2;
+    height: 18px;
+}
+
+th, td {
+    padding: 6px;
+}
+
+thead tr:first-child th, thead tr:last-child th {
+    background-color: #DFE3E8;
+}
+
+.gradient {
+    /* Safari 4-5, Chrome 1-9 */ 
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F1F2F3), to(#DBDDE0)); 
+    /* Safari 5.1, Chrome 10+ */ 
+    background: -webkit-linear-gradient(top, #F1F2F3, #DBDDE0); 
+    /* Firefox 3.6+ */ 
+    background: -moz-linear-gradient(top, #F1F2F3, #DBDDE0); 
+    /* IE 10 */ 
+    background: -ms-linear-gradient(top, #F1F2F3, #DBDDE0); 
+    /* Opera 11.10+ */ 
+    background: -o-linear-gradient(top, #F1F2F3, #DBDDE0);
+}
+
+tbody tr:last-child td {
+    border-bottom: 2px solid #A4ABB2;
+}
+
+tfoot td {
+    vertical-align: middle;
+}
+
+tfoot input[type="image"], table tfoot select {
+    vertical-align: middle;
+}
+
+tfoot a {
+    color: #3B3B3B;
+    text-decoration: none;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+tfoot a:not(.active) {
+    margin-right: 4px;
+}
+
+tfoot a.active {
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-right: 4px;
+    padding-bottom: 2px;
+    border: 1px solid #CB6A1D;
+    border-radius: 3px;
+}
+
+tfoot label {
+    margin-left: 20px;
+}
+
+tfoot select {
+    border: 1px solid #A4ABB2;
+    border-radius: 3px;
+    color: #3B3B3B;
+}
+
+.width30 {
+    width: 30px;
+}
+
+.width90 {
+    width: 90px;
+}
+
+.width110 {
+    width: 110px;
+}
+
+.pager {
+    float: left;
+}
+
+.results {
+    float: right;    
+}
+
+.results > span {
+    vertical-align: middle;
+}
+
+.resultsNumbers {
+    font-size: 12px;
+}
+
+.more {
+    margin-right: 3px;
+}

@@ -1,0 +1,7 @@
+lorem: 4
+ipsum: 4
+dummy: 2
+text: 2
+page: 0
+foo: 0
+bar: 0

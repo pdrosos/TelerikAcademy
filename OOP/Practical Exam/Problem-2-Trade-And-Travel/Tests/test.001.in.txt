@@ -1,0 +1,6 @@
+create location town solitude
+create item weapon bigMeech solitude
+create traveller dragonborn solitude
+dragonborn pickup
+dragonborn inventory
+end

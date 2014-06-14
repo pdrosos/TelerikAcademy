@@ -1,0 +1,3 @@
+Streams are used for reading and writing data into and from devices
+Streams are ordered sequences of bytes
+Provide consecutive access to its elements

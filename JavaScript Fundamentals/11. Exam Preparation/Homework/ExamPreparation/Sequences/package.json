@@ -1,0 +1,10 @@
+{
+  "name": "Sequences",
+  "version": "0.0.0",
+  "description": "Sequences",
+  "main": "sequences.js",
+  "author": {
+    "name": "Pavlina",
+    "email": ""
+  }
+}

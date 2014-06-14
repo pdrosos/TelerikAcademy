@@ -1,0 +1,10 @@
+{
+  "name": "LabyrinthEscape",
+  "version": "0.0.0",
+  "description": "LabyrinthEscape",
+  "main": "labyrinth-escape.js",
+  "author": {
+    "name": "Pavlina",
+    "email": ""
+  }
+}

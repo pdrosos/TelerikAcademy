@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <title>02. Compare char arrays</title>
+        <link rel="stylesheet" type="text/css" href="css/jsConsoleStyles.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body>
+        <header>
+            <h2>JavaScript Console</h2>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+            </nav>
+            <div id="javascript-ninja"></div>
+        </header>
+        <div id="wrapper">
+            <aside>
+                <ul>
+                    <li><a href="01.InitializeArrayElements.html">01. Initialize array elements</a></li>
+                    <li><a href="02.CompareCharArrays.html">02. Compare char arrays</a></li>
+                    <li><a href="03.MaxSequenceEqualElements.html">03. Max sequence of equal elements</a></li>
+                    <li><a href="04.MaxIncreasingSequence.html">04. Max increasing sequence</a></li>
+                    <li><a href="05.SelectionSort.html">05. Selection sort</a></li>
+                    <li><a href="06.MostFrequentNumber.html">06. Most frequent number</a></li>
+                    <li><a href="07.ElementIndexBinarySearch.html">07. Element index (binary search)</a></li>
+                </ul>
+            </aside>
+            <section>
+                <article>
+                    <h3>Compare char arrays</h3>
+                    <p>Description: Write a script that compares two char arrays lexicographically (letter by letter).<br />
+                       Write the two char arrays in the fields below separating the characters by comma. For example: a, c, d, F, k 
+                    </p>
+                    <form>
+                        <label for="chars01">Char array 01: </label>
+                        <input type="text" id="chars01" onkeydown="return jsConsole.searchKeyPress(event);" />
+                        <label for="chars02">Char array 02: </label>
+                        <input type="text" id="chars02" onkeydown="return jsConsole.searchKeyPress(event);" />
+                        <input type="button" id="process" value="Process" />
+                        <input type="button" onclick="jsConsole.clearAll()" id="clear" value="Clear" />
+                    </form>
+                </article>
+                <div id="js-console">
+                </div>
+            </section>
+        </div>        
+        <footer></footer>
+        <script type="text/javascript" src="js/js-console.js"></script>
+        <script type="text/javascript" src="js/userValidation.js"></script>
+        <script type="text/javascript" src="js/02.CompareCharArrays.js"></script>
+    </body>
+</html>

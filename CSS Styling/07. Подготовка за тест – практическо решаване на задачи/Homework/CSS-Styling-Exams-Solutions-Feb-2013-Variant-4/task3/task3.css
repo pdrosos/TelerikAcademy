@@ -1,0 +1,173 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of CSS Reset */
+
+body
+{
+    font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    width: 960px;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+#wrapper a
+{
+    text-decoration: none;
+    color: #CF2D2F;
+}
+
+#wrapper > div
+{
+    width: 145px;
+    float: left;
+    vertical-align: top;
+    border: 2px solid #D3D7DA;
+    margin-right: -2px;
+    padding: 5px;
+}
+
+#wrapper > div:nth-child(2n)
+{
+    background: linear-gradient(to bottom, #ffffff 0,#ffffff 22%,#f1f2f3 100%); 
+}
+
+hgroup
+{
+    font-weight: bold;
+    height: 40px;
+    display: table-cell;
+    vertical-align: bottom;
+    padding: 5px 5px 0 40px;
+}
+
+#wrapper > div:nth-child(1)
+{
+    padding-bottom: 60px;
+}
+
+#wrapper > div:nth-child(1) hgroup
+{
+    background-image: url('imgs/install.png');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+#wrapper > div:nth-child(2) hgroup
+{
+    background-image: url('imgs/tuneUp.png');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+#wrapper > div:nth-child(3) hgroup
+{
+    background-image: url('imgs/manage.png');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+#wrapper > div:nth-child(4)
+{
+    padding-bottom: 25px;
+}
+
+#wrapper > div:nth-child(4) hgroup
+{
+    background-image: url('imgs/openSource.png');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+#wrapper > div:nth-child(5)
+{
+    padding-bottom: 50px;
+}
+
+#wrapper > div:nth-child(5) hgroup
+{
+    background-image: url('imgs/twitter.png');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+#wrapper > div:nth-child(6) hgroup
+{
+    background-image: url('imgs/about.png');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+#wrapper > div p
+{
+    margin-top: 15px;
+}
+
+#wrapper > div div
+{
+    margin-top: 10px;
+}
+
+div:not(.yellowBox) > a
+{
+    display: block;
+}
+
+
+div:not(.yellowBox) > a span
+{
+    text-transform: uppercase;
+}
+
+.yellowBox
+{
+    border: 1px solid #FFFF00;
+    background-color: #FFFFDD;
+}

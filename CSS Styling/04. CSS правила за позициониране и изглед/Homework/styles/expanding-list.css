@@ -1,0 +1,31 @@
+﻿body {
+    background-color: white;    
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    width: 98%;
+}
+
+#menu, #menu ul {
+    list-style-type: none;       
+}
+
+#menu a {
+     text-decoration: none;
+     color:black;
+}
+
+#menu li ul {
+    display:none;
+}
+
+#menu li:hover > ul {
+    display:block;
+}
+
+#menu a:hover {
+    text-decoration:underline;
+    color:blue;
+}
+
+#menu li:hover li > a {
+    color:gray;
+}

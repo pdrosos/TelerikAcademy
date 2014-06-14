@@ -1,0 +1,13 @@
+create location town markarth
+create location mine cidna
+create location forest blackmarsh
+create item armor mArmor markarth
+create item weapon mWeapon markarth
+create traveller hex markarth
+hex pickup
+hex travel cidna
+hex gather cidnaIron
+hex travel blackmarsh
+hex gather blackmarshWood
+hex inventory
+end

@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Register Form</title>
+    <link rel="stylesheet" href="styles/form.css" media="screen" />
+</head>
+<body>
+    <form name="registerForm" id="registerForm" method="post" action="#">
+        <table>
+            <tfoot>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" name="submit" value="Submit" />
+                        <input type="reset" name="reset" value="Clear this form" />
+                    </td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="lastName">Last Name</label>
+                    </td>
+                    <td>
+                        <input type="text" class="width350" id="lastName" name="lastName" value="Drosos" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="firstName">First Name</label>
+                    </td>
+                    <td>
+                        <input type="text" class="width350" id="firstName" name="firstName" value="Pavlina" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="address">Address</label>
+                    </td>
+                    <td>
+                        <textarea class="width350" id="address" name="address">Mladost 4, 
+ul. Atanas Moskov</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="city">City</label>
+                    </td>
+                    <td>
+                        <input type="text" class="width230" id="city" name="city" value="Sofia" />
+
+                        <label for="state" class="state">State</label>
+                        <input type="text" class="width50" id="state" name="state" value="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="zipCode">Zip/Postal Code</label>
+                    </td>
+                    <td>
+                        <input type="text" class="width100" id="zipCode" name="zipCode" value="1715" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="country">Country</label>
+                    </td>
+                    <td>
+                        <select class="width230" id="country" name="country">
+                            <option value="">--- Country ---</option>
+                            <option value="1" selected="selected">Bulgaria</option>
+                            <option value="2">Germany</option>
+                            <option value="3">Spain</option>
+                            <option value="4">United Kingdom</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="phoneNumber">Phone (country code, area code, number)</label>
+                    </td>
+                    <td>
+                        (+<input type="text" class="width60" id="countryCode" name="countryCode" value="359" />)
+                        <input type="text" class="width60" id="areaCode" name="areaCode" value="02" /> - 
+                        <input type="text" class="width150" id="phoneNumber" name="phoneNumber" value="878333666" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">E-mail</label>
+                    </td>
+                    <td>
+                        <input type="text" class="width350" id="email" name="email" value="pavlinadrosos@gmail.com" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="birthDay">Birth date</label>
+                    </td>
+                    <td>
+                        <label for="birthMonth">Month</label>
+                        <input type="text" class="width25" id="birthMonth" name="birthMonth" value="03" maxlength="2" />
+
+                        <label for="birthDay">Day</label>
+                        <input type="text" class="width25" id="birthDay" name="birthDay" value="10" maxlength="2" />
+
+                        <label for="birthYear">Year (4 digits)</label>
+                        <input type="text" class="width60" id="birthYear" name="birthYear" value="1983" maxlength="4" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="gender">Gender</label>
+                    </td>
+                    <td>
+                        <select class="width100" id="gender" name="gender">
+                            <option value="">--- Gender ---</option>
+                            <option value="1">Male</option>
+                            <option value="2" selected="selected">Female</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Starting Date</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="spring" name="startingDate" value="1" checked="checked" />
+                        <label for="spring">Spring 2013</label>
+
+                        <input type="radio" id="summer" name="startingDate" value="2" />
+                        <label for="summer">Summer 2013</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="comments">Comments/Questions</label>
+                    </td>
+                    <td>
+                        <textarea class="width350 height100" id="comments" name="comments">Please, send me more information about the lodging.</textarea>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>

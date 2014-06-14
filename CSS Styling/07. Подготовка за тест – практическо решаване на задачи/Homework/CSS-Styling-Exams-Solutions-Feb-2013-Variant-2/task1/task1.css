@@ -1,0 +1,145 @@
+﻿/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of CSS Reset */
+
+#wrapper {
+    font-family: Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    width: 960px;
+    padding-left: 45px;
+    padding-top: 50px;
+    font-size: 18px;
+}
+
+.accordion-btn
+{
+    text-decoration: none;
+    color: #444444;
+    border-bottom: none;
+    display: inline-block;
+    width: 392px;
+    border: 1px solid #000000;
+    padding: 3px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #eeeeee 0,#eeeeee 23%,#e7e7e7 31%,#acacac 77%,#aaaaaa 81%,#aaaaaa 100%);
+}
+
+.current .accordion-btn
+{
+    border-bottom: 0;
+}
+
+.accordion-content 
+{
+    display: none;
+    width: 368px;
+    padding: 10px 15px 5px 15px;
+    color: #444444;
+    background-color: #AAAAAA;
+    border-right: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    text-align: justify;
+    line-height: 22px;
+}
+
+.accordion-content h1
+{
+    font-size: 30px;
+    color: #5E5E5E;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.accordion-content table
+{
+    margin: 15px auto 15px auto;
+}
+
+.accordion-content table, .accordion-content th, .accordion-content td
+{
+    border: 1px solid #000000;
+}
+
+.accordion-content th, .accordion-content td
+{
+    padding: 5px;
+}
+
+.accordion-content th
+{
+    font-weight: bold;
+    background: linear-gradient(to bottom, #ececec 0,#898989 100%);
+}
+
+.accordion-content th:first-child
+{
+    border-top-left-radius: 10px;
+}
+
+.accordion-content td {
+    color: #FFFFFF;
+}
+
+.accordion-content tbody tr:nth-child(2n)
+{
+    background: linear-gradient(to bottom, #898989 0,#cbcbcb 100%);
+}
+
+.accordion-content tbody tr:nth-child(2n+1)
+{
+    background: linear-gradient(to bottom, #cbcbcb 0,#898989 100%);
+}
+
+.current .accordion-content
+{
+    display: block;
+}

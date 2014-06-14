@@ -1,0 +1,16 @@
+create location town whiterun
+create item iron maiden whiterun
+create item wood bigStick whiterun
+create traveller dragonborn whiterun
+create shopkeeper arcadia whiterun
+dragonborn pickup
+dragonborn inventory
+dragonborn sell maiden arcadia
+arcadia money
+dragonborn sell bigStick arcadia
+arcadia drop
+dragonborn pickup
+dragonborn inventory
+dragonborn sell bigStick arcadia
+arcadia money
+end

@@ -1,0 +1,21 @@
+Задачите са решени вярно, качеството на кода е добро. 
+Последните две задачи са решени с евенти.
+
+Относно extension методите Min и Max, освен IComparable трябва да бъдат и IEnumerable, както се иска в условието. Това може да се напише така за Min:
+public static T Min<T>(this IEnumerable<T> collection) where T : IComparable<T>
+{
+    T minValue = collection.First();
+
+    foreach (T item in collection)
+    {
+        if (item.CompareTo(minValue) < 0) 
+        {
+            minValue = item;
+        }
+    }
+
+    return minValue;
+}
+и аналогично за Max.
+
+Успех на изпита!

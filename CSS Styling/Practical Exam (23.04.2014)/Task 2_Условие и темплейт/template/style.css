@@ -1,0 +1,137 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* End of CSS Reset */
+
+html, body {
+    font-family: 'Courier New', Courier, 'Nimbus Mono L', monospace;
+}
+
+#wrapper {
+    width: 960px;
+    margin: 50px auto;
+    font-size: 16px;
+}
+
+a
+{
+    color: #0000FF;
+    text-decoration: none;
+}
+
+.menu > li
+{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 15px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #25DCF2 0,#7994E2 100%);
+}
+
+.menu > li:hover
+{
+    padding: 10px 30px;
+    font-size: 20px;
+}
+
+.content
+{
+    display: none;
+    position: absolute;
+    top: 85%;
+    left: 15px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #FEFFFF 0,#A0D8EF 100%);
+    min-width: 280px;
+}
+
+.menu > li:hover .content
+{
+    display: block;
+    z-index: 1000;
+}
+
+.content h3
+{
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: bold;
+    margin: 20px 20px;
+}
+
+.content p
+{
+    font-size: 15px;
+    margin: 0 20px 25px 20px;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.content ul
+{
+    list-style-type: square;
+    list-style-position: inside;
+    margin-left: 5px;
+}
+
+.content ul li
+{
+    font-size: 16px;
+    line-height: 8px;
+    margin: 0 50px 10px 0;
+}
+
+.content ul li:hover
+{
+    text-decoration: underline;
+}

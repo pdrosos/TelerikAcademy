@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contacts</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="styles/table.css" />
+        <link rel="stylesheet" href="styles/flags.css" />
+        <script type="text/javascript" src="scripts/modernizr.min.js"></script>
+        <script type="text/javascript" src="scripts/mootools.js"></script>
+        <!--[if (gte IE 6)&(lte IE 8)]>
+        <script type="text/javascript" src="scripts/selectivizr.min.js"></script>
+        <![endif]--> 
+    </head>
+    <body>
+        <form method="post" action="#">
+        <table id="contacts">
+            <thead>
+                <tr>
+                    <th>Contact name</th>
+                    <th>City</th>
+                    <th>Country</th>
+                    <th>Is Promoted</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Maria Anders</td>
+                    <td>Berlin</td>
+                    <td>
+                        <ul class="f32">
+                            <li class="flag de">Germany</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="isPromoted[1]" disabled="disabled" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ana Trujillo</td>
+                    <td>México D.F.</td>
+                    <td>
+                        <ul class="f32">
+                            <li class="flag mx">Mexico</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="isPromoted[2]" disabled="disabled" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Antonio Moreno</td>
+                    <td>México D.F.</td>
+                    <td>
+                        <ul class="f32">
+                            <li class="flag mx">Mexico</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="isPromoted[3]" checked="checked" disabled="disabled" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Thomas Hardy</td>
+                    <td>London</td>
+                    <td>
+                        <ul class="f32">
+                            <li class="flag gb">UK</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="isPromoted[4]" disabled="disabled" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        </form>
+    </body>
+</html>

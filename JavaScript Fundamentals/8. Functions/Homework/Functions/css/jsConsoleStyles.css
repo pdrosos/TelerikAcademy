@@ -1,0 +1,25 @@
+#js-console {
+    height: 420px;
+    background-color: black;
+    /*background-color: #121212;*/
+    border-radius: 2px;
+    margin: 15px 0 0 0;
+    padding: 5px 10px;
+    overflow-y: auto;
+    color: lightgray;
+}
+
+#js-console > p {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: block;
+}
+bodynnjs-console > p > span {
+  margin: 0;
+  padding: 0;
+}
+bodyeejs-consolejs-console > p > br {
+  display: inline-block;
+  margin-bottom: 5px;
+}

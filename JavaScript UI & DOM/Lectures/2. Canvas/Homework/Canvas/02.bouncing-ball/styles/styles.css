@@ -1,0 +1,11 @@
+﻿body {
+    font-size: 100%;
+    margin: 0;
+}
+
+canvas {
+    background-image: url('../images/starry-sky-over-the-sea-beach.jpg');
+    background-size: 100% 100%;
+    display: block;
+    margin: 10px auto 20px;
+}

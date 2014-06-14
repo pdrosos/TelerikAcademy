@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Student", "06. CTS_05112013\01. Student.csproj", "{62B499EB-598B-426E-9EB0-B0A519C62068}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Person", "02. Person\02. Person.csproj", "{EEF16503-0D82-4AC6-BB09-1B86FBE63315}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. BitArray64", "03. BitArray64\03. BitArray64.csproj", "{B04CDDF0-3C22-4ACF-A627-93FFB402FBF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62B499EB-598B-426E-9EB0-B0A519C62068}.Debug|x86.ActiveCfg = Debug|x86
+		{62B499EB-598B-426E-9EB0-B0A519C62068}.Debug|x86.Build.0 = Debug|x86
+		{62B499EB-598B-426E-9EB0-B0A519C62068}.Release|x86.ActiveCfg = Release|x86
+		{62B499EB-598B-426E-9EB0-B0A519C62068}.Release|x86.Build.0 = Release|x86
+		{EEF16503-0D82-4AC6-BB09-1B86FBE63315}.Debug|x86.ActiveCfg = Debug|x86
+		{EEF16503-0D82-4AC6-BB09-1B86FBE63315}.Debug|x86.Build.0 = Debug|x86
+		{EEF16503-0D82-4AC6-BB09-1B86FBE63315}.Release|x86.ActiveCfg = Release|x86
+		{EEF16503-0D82-4AC6-BB09-1B86FBE63315}.Release|x86.Build.0 = Release|x86
+		{B04CDDF0-3C22-4ACF-A627-93FFB402FBF3}.Debug|x86.ActiveCfg = Debug|x86
+		{B04CDDF0-3C22-4ACF-A627-93FFB402FBF3}.Debug|x86.Build.0 = Debug|x86
+		{B04CDDF0-3C22-4ACF-A627-93FFB402FBF3}.Release|x86.ActiveCfg = Release|x86
+		{B04CDDF0-3C22-4ACF-A627-93FFB402FBF3}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

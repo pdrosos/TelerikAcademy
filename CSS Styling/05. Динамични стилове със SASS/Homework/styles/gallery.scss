@@ -1,0 +1,53 @@
+﻿@import 'mixins.scss';
+
+@include reset;
+@include clearfix;
+
+.inline {
+	@extend .clearfix;
+    list-style: none;
+    
+    li {
+        float: left;
+    }
+}
+
+#gallery-container {
+    @extend .inline;
+    position: relative;
+    width: 860px;
+    height: 650px;
+    margin: 10px auto 0;
+}
+
+.gallery-image {
+    margin-bottom: 10px;
+
+    &:not(:first-child) {
+        margin-left: 10px;
+    }
+    &:target {
+        .thumbnail {
+            opacity: 1;
+            cursor: auto;
+        }
+        .big-image {
+            z-index: 1;
+            opacity: 1;
+        }
+    }
+}
+.thumbnail {
+    opacity: 0.5;
+    &:hover {
+        opacity: 0.7;
+    }
+}
+
+.big-image {
+    @include transition(all 300ms ease-in-out);
+    position: absolute;
+    top: 95px;
+    left: 0;
+    opacity: 0;
+}

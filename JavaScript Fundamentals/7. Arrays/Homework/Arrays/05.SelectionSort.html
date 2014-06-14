@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <title>05. Selection sort</title>
+        <link rel="stylesheet" type="text/css" href="css/jsConsoleStyles.css" />
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    </head>
+    <body>
+        <header>
+            <h2>JavaScript Console</h2>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+            </nav>
+            <div id="javascript-ninja"></div>
+        </header>
+        <div id="wrapper">
+            <aside>
+                <ul>
+                    <li><a href="01.InitializeArrayElements.html">01. Initialize array elements</a></li>
+                    <li><a href="02.CompareCharArrays.html">02. Compare char arrays</a></li>
+                    <li><a href="03.MaxSequenceEqualElements.html">03. Max sequence of equal elements</a></li>
+                    <li><a href="04.MaxIncreasingSequence.html">04. Max increasing sequence</a></li>
+                    <li><a href="05.SelectionSort.html">05. Selection sort</a></li>
+                    <li><a href="06.MostFrequentNumber.html">06. Most frequent number</a></li>
+                    <li><a href="07.ElementIndexBinarySearch.html">07. Element index (binary search)</a></li>
+                </ul>
+            </aside>
+            <section>
+                <article>
+                    <h3>Selection sort</h3>
+                    <p>
+                        Sorting an array means to arrange its elements in increasing order. 
+                        Write a script to sort an array. Use the "selection sort" algorithm: Find the smallest element, 
+                        move it at the first position, find the smallest from the rest, move it at the second position, 
+                        etc. Hint: Use a second array.
+                    </p>
+                    <form>
+                        <label for="number-seq">Sequence (e.g. 4, 1, 3, 2): </label>
+                        <input type="text" id="number-seq" onkeydown="return jsConsole.searchKeyPress(event);" />
+                        <input type="button" id="process" value="Process" />
+                        <input type="button" onclick="jsConsole.clearAll()" id="clear" value="Clear" />
+                    </form>
+                </article>
+                <div id="js-console">
+                </div>
+            </section>
+        </div>
+        <footer></footer>
+        <script type="text/javascript" src="js/js-console.js"></script>
+        <script type="text/javascript" src="js/userValidation.js"></script>
+        <script type="text/javascript" src="js/05.SelectionSort.js"></script>
+    </body>
+</html>

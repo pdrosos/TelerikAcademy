@@ -1,0 +1,10 @@
+{
+  "name": "_03.ClojureParser",
+  "version": "0.0.0",
+  "description": "03.ClojureParser",
+  "main": "03.ClojureParser.js",
+  "author": {
+    "name": "IvayloBotusharov",
+    "email": ""
+  }
+}

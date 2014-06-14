@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Felix the Cat Game Documentation</title>
+		<meta name="author" content="Toni Marinova" />
+		<link rel="stylesheet" type="text/css" href="docu_styles.css" media="screen" />
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header" class="clear">
+				<img class="left" src="images/felix.gif" width="100" height="100" alt="Felix Logo"/>
+				<h1 id="main_title" class="left">Felix the Cat Documentation</h1>	
+			</div>
+			
+			<div id="contents">
+				<h2 class="section_title">Contents</h2>
+				<ul>
+					<li>
+						<a href="#user_guide" title="User Guide">User Guide</a>
+						<ul>
+							<li><a href="#tfs_repo" title="TFS Repository">TFS Repository</a></li>
+							<li><a href="#main_menu" title="Main Menu">Main Menu</a></li>
+							<li><a href="#black_hole" title="Black Hole">Black Hole</a></li>
+							<li><a href="#reflexes" title="Test Your Reflexes">Test Your Reflexes</a></li>
+							<li><a href="#math" title="Mathematics">Mathematics</a></li>
+							<li><a href="#english" title="English Test">English Test</a></li>
+							<li><a href="#action" title="Action Game">Action Game</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#programmer_guide"  title="Programming Guide">Programming Guide</a>
+						<ul>
+							<li><a href="#classes" title="Classes">Classes</a>
+								<ul> 
+									<li><a href="#action_game" title="Action Game">Action Game</a></li>
+									<li><a href="#felix_action_game" title="Felix">Felix</a></li>
+									<li><a href="#fish_action_game" title="Fish">Fish</a></li>
+									<li><a href="#weapon_action_game" title="Weapon">Weapon</a></li>
+									<li><a href="#black_hole" title="Black Hole">BlackHole</a></li>
+									<li><a href="#black_hole_gen" title="Black Hole Generator">BlackHoleGenerator</a></li>
+									<li><a href="#figure_blackhole" title="Figure">Figure</a></li>
+									<li><a href="#figure_gen_blackhole" title="Figure Generator">FiguresGenerator</a></li>
+									<li><a href="#game_blackhole" title="Game">Game</a></li>
+									<li><a href="#game_start_blackhole" title="Game Start">StartGame</a></li>
+									<li><a href="#window_blackhole" title="Window">Window</a></li>
+									<li><a href="#matemathics" title="Mathematics">Mathematics</a></li>
+									<li><a href="#EnglishTest_game" title="English Test">EnglishTest</a></li>
+									<li><a href="#ReflexesGame" title="Reflexes Game">ReflexesGame</a></li>
+									<li><a href="#Menu" title="Menu">Menu</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#methods" title="Methods">Methods</a>
+								<ul> 
+									<li><a href="#side_bar" title="Side Bar">SideBar()</a></li>
+									<li><a href="#game_story" title="Game Story">GameStory()</a></li>
+									<li><a href="#selected_game" title="Selected Game">SelectedGame()</a></li>
+									<li><a href="#felix_pic" title="Felix's Picture">FelixPicture()</a></li>
+									<li><a href="#play" title="Play">Play()</a></li>
+									<li><a href="#time_is_up" title="Time Up">TimeIsUp()</a></li>
+									<li><a href="#true_false" title="True or False">TrueOrFalse()</a></li>
+									<li><a href="#print_at_position" title="Print At Position">PrintAtPosition()</a></li>
+									<li><a href="#you_are_wrong" title="You Are Wrong">YouAreWrong()</a></li>
+									<li><a href="#get_blackhole_symbols" title="Black Hole Symbols">GetBlackHoleSymbols()</a></li>
+									<li><a href="#gen_black_hole" title="Generate Black Hole">GenerateBlackHole()</a></li>
+									<li><a href="#random_figure" title="Print Figure">GetRandomList()</a></li>
+									<li><a href="#print_figure" title="Print Figure">PrintFigure()</a></li>
+									<li><a href="#game_is_over" title="Game Is Over">IsGameOver()</a></li>
+									<li><a href="#select_dificulty" title="Select Difficulty">SelectDifficulty()</a></li>
+									<li><a href="#select_weapon" title="Select Weapon">SelectWeapon()</a></li>
+									<li><a href="#select_weapon_kind" title="Select Weapon Kind">WeaponKind()</a></li>
+									<li><a href="#print_matrix" title="Print Matrix">PrintMatrix()</a></li>
+									<li><a href="#cleart_matrix" title="Clear Matrix">ClearMatrix()</a></li>
+									<li><a href="#number_of_fishes" title="Number Of Fishes">NumberOfFishes()</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div id="user_guide">
+				<h2 class="section_title">User Guide</h2>
+				<ul> 
+					<li><a href="#tfs_repo" title="TFS Repository">TFS Repository</a></li>
+					<li><a href="#main_menu" title="Main Menu">Main Menu</a></li>
+					<li><a href="#black_hole" title="Black Hole">Black Hole</a></li>
+					<li><a href="#reflexes" title="Test Your Reflexes">Test Your Reflexes</a></li>
+					<li><a href="#math" title="Mathematics">Mathematics</a></li>
+					<li><a href="#english" title="English Test">English Test</a></li>
+					<li><a href="#action" title="Action Game">Action Game</a></li>
+				</ul>
+				<div id="tfs_repo">
+					<h3  class="inner_section_title">TFS Repository</h3>
+					<p>
+						You may find the team's TFS repository at 
+						<a href="https://felixgame.visualstudio.com" target="_blank" title="Repository">FelixGameRepo</a>.
+					</p>
+				</div>
+				<div id="main_menu">
+					<h3 class="inner_section_title">Main Menu</h3>
+					<p>
+						When the game is started, you are taken
+						to the main menu: <br />
+						<img src="images/Menu.png" width="700" height="400" alt="Main Menu Image" class="game_imgs"/> <br />
+						From there you may choose which game you wish to play.
+						Just type the corresponding number and press 
+						<strong>Enter</strong> to start the game.
+					</p>
+					<p>
+						You have 1 minute for each game. After the time is up,
+						you see your score. Press a key to be taken back to
+						the Main Menu.
+					</p>
+					<p>
+						Each game has its own "rules" screen, where you can find out
+						the controls and rules for the corresponding game.
+					</p>
+					<p>
+						Your high scores from each game are displayed in the Side Bar.
+					</p>
+				</div>
+				<div id="black_hole">
+					<h3 class="inner_section_title">Black Hole Game</h3>
+					<span class="by">
+						<a href="https://telerikacademy.com/Users/pavlinadrosos" title"Pavlina" target="_blank">Pavlina Drosos /a.k.a. pavlinadrosos/</a>
+					</span>
+					<p>
+						<img src="images/BlackHole.png" width="700" height="400" alt="Main Menu Image" class="game_imgs"/> <br />
+						Do you pride yourself on your memory. Well it's time
+						you prove it. Spot which form is missing after the
+						Black Hole. Select the corresponding number from the list.
+					</p>					
+				</div>
+				<div id="reflexes">
+					<h3 class="inner_section_title">Test Your Reflexes Game</h3>
+					<span class="by">
+						<a href="https://telerikacademy.com/Users/antoaneta.marinova.5" title"Toni" target="_blank">Antoaneta Marinova /a.k.a. antoaneta.marinova.5/</a>
+					</span>
+					<p>
+						<img src="images/TestYourReflexes.png" width="700" height="400" alt="Main Menu Image" class="game_imgs"/> <br />
+						Can you spot the letter among the distractions and type it
+						fast enough to get a bonus. Try your reflexes with this game,
+						but beware as the distractions will increase with each try.
+					</p>
+				</div>
+				<div id="math">
+					<h3 class="inner_section_title">Mathematics Game</h3>
+					<span class="by">
+						<a href="https://telerikacademy.com/Users/Ivan.Dimitrov.bg" title"Ivan" target="_blank">Ivan Dimitrov /a.k.a Ivan.Dimitrov.bg/</a>
+					</span>
+					<p>
+						<img src="images/Math.png" width="700" height="400" alt="Main Menu Image" class="game_imgs"/> <br />
+						Are you good with Math? Well we will test your
+						calculus abilities in the Mathematics game.
+						Solve the equations as fast as you can and type
+						your answer. Remember that you only have a minute to impress
+						us with your skills.
+					</p>
+				</div>
+				<div id="english">
+					<h3 class="inner_section_title">Test Your English Game</h3>
+					<span class="by">
+						<a href="https://telerikacademy.com/Users/lina94" title"Katalina" target="_blank">Katalina Dimitrova /a.k.a lina94/</a>
+					</span>
+					<p>
+						<img src="images/EnglishTest.png" width="700" height="400" alt="Main Menu Image" class="game_imgs"/> <br />
+						If you understand this documentation, you may not have a problem with
+						this game. But every cat needs to know its English and
+						you only have 1 minute to type in as many correct answers
+						as you can!
+					</p>	
+				</div>
+				<div id="action">
+					<h3 class="inner_section_title">Action Game</h3>
+					<span class="by">
+						<a href="https://telerikacademy.com/Users/emilijohnson" title"Emi" target="_blank">Emilia Toteva /a.k.a emilijohnson/</a>
+					</span>
+					<p>
+						<img src="images/Action.png" width="700" height="400" alt="Main Menu Image" class="game_imgs"/> <br />
+						Tired of being tested? Well this is the place to unwind.
+						Select your difficulty level and your weapon and make 
+						sure you don't get eaten by a fish. Remember, each weapon
+						has its own range and reload time, so choose wisely.
+					</p>					
+					<p>
+						Use the arrow keys to move and space to fire.
+					</p>
+				</div>
+			</div>
+			<div id="programmer_guide">
+				<h2 class="section_title">Programming Guide</h2>
+				<p>
+					Now, let's get to the more serious part of this 
+					documentation. Below, you will find a list of all
+					classes and methods used in the project. Each method
+					or class contains a brief description of itself.
+				</p>
+				<ul>
+					<li><a href="#classes" title="Classes">Classes</a>
+						<ul> 
+							<li><a href="#action_game" title="Action Game">Action Game</a></li>
+							<li><a href="#felix_action_game" title="Felix">Felix</a></li>
+							<li><a href="#fish_action_game" title="Fish">Fish</a></li>
+							<li><a href="#weapon_action_game" title="Weapon">Weapon</a></li>
+							<li><a href="#black_hole" title="Black Hole">BlackHole</a></li>
+							<li><a href="#black_hole_gen" title="Black Hole Generator">BlackHoleGenerator</a></li>
+							<li><a href="#figure_blackhole" title="Figure">Figure</a></li>
+							<li><a href="#figure_gen_blackhole" title="Figure Generator">FiguresGenerator</a></li>
+							<li><a href="#game_blackhole" title="Game">Game</a></li>
+							<li><a href="#game_start_blackhole" title="Game Start">StartGame</a></li>
+							<li><a href="#window_blackhole" title="Window">Window</a></li>
+							<li><a href="#matemathics" title="Mathematics">Mathematics</a></li>
+							<li><a href="#EnglishTest_game" title="English Test">EnglishTest</a></li>
+							<li><a href="#ReflexesGame" title="Reflexes Game">ReflexesGame</a></li>
+							<li><a href="#Menu" title="Menu">Menu</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#methods" title="Methods">Methods</a>
+						<ul> 
+							<li><a href="#side_bar" title="Side Bar">SideBar()</a></li>
+							<li><a href="#game_story" title="Game Story">GameStory()</a></li>
+							<li><a href="#selected_game" title="Selected Game">SelectedGame()</a></li>
+							<li><a href="#felix_pic" title="Felix's Picture">FelixPicture()</a></li>
+							<li><a href="#play" title="Play">Play()</a></li>
+							<li><a href="#time_is_up" title="Time Up">TimeIsUp()</a></li>
+							<li><a href="#true_false" title="True or False">TrueOrFalse()</a></li>
+							<li><a href="#print_at_position" title="Print At Position">PrintAtPosition()</a></li>
+							<li><a href="#you_are_wrong" title="You Are Wrong">YouAreWrong()</a></li>
+							<li><a href="#get_blackhole_symbols" title="Black Hole Symbols">GetBlackHoleSymbols()</a></li>
+							<li><a href="#gen_black_hole" title="Generate Black Hole">GenerateBlackHole()</a></li>
+							<li><a href="#random_figure" title="Print Figure">GetRandomList()</a></li>
+							<li><a href="#print_figure" title="Print Figure">PrintFigure()</a></li>
+							<li><a href="#game_is_over" title="Game Is Over">IsGameOver()</a></li>
+							<li><a href="#select_dificulty" title="Select Difficulty">SelectDifficulty()</a></li>
+							<li><a href="#select_weapon" title="Select Weapon">SelectWeapon()</a></li>
+							<li><a href="#select_weapon_kind" title="Select Weapon Kind">WeaponKind()</a></li>
+							<li><a href="#print_matrix" title="Print Matrix">PrintMatrix()</a></li>
+							<li><a href="#cleart_matrix" title="Clear Matrix">ClearMatrix()</a></li>
+							<li><a href="#number_of_fishes" title="Number Of Fishes">NumberOfFishes()</a></li>
+						</ul>
+					</li>
+				</ul>
+				<div id="classes">
+					<h2 class="section_title">Classes</h2>
+					<p>
+						The following chapter describes the classed we used
+						in out game project.
+					</p>
+					<div id="action_game">
+						<h3 class="inner_section_title">Action Game</h3>
+						<p>
+							The class contains the main game logic of the
+							Action Game.
+						</p>
+					</div>
+					<div id="felix_action_game">
+						<h3 class="inner_section_title">Felix</h3>
+						<p>
+							The class contains the played character object in
+							the Action Game. This includes position, checking if 
+							the position is empty and moving the character.
+						</p>
+					</div>
+					<div id="fish_action_game">
+						<h3 class="inner_section_title">Fish</h3>
+						<p>
+							The class contains the fish object in
+							the Action Game. 
+						</p>
+					</div>
+					<div id="weapon_action_game">
+						<h3 class="inner_section_title">Weapon</h3>
+						<p>
+							The class contains the weapon object in
+							the Action Game. 
+						</p>
+					</div>
+					<div id="black_hole">
+						<h3 class="inner_section_title">BlackHole</h3>
+						<p>
+							The class contains the black hole object with its
+							shape and coordinates.
+						</p>
+					</div>
+					<div id="black_hole_gen">
+						<h3 class="inner_section_title">BlackHoleGenerator</h3>
+						<p>
+							The class generates the black hole object.
+						</p>
+					</div>
+					<div id="figure_blackhole">
+						<h3 class="inner_section_title">Figure</h3>
+						<p>
+							The class contains falling object with its shape and 
+							coordinates in the Black Hole game.
+						</p>
+					</div>
+					<div id="figure_gen_blackhole">
+						<h3 class="inner_section_title">FiguresGenerator</h3>
+						<p>
+							The class generates random figure objects and lists
+							with random figure objects in the Black Hole game.
+						</p>
+					</div>
+					<div id="game_blackhole">
+						<h3 class="inner_section_title">Game</h3>
+						<p>
+							The class contains the main game logic of
+							the Black Hole game.
+						</p>
+					</div>
+					<div id="game_start_blackhole">
+						<h3 class="inner_section_title">StartGame</h3>
+						<p>
+							The class contains the Black Hole game's entry point.
+						</p>
+					</div>
+					<div id="window_blackhole">
+						<h3 class="inner_section_title">Window</h3>
+						<p>
+							The class prints all game elements of the 
+							Black Hole Game.
+						</p>
+					</div>
+					<div id="matemathics">
+						<h3 class="inner_section_title">Mathematics</h3>
+						<p>
+							The class contains the Mathematics game.
+						</p>
+					</div>
+					<div id="EnglishTest_game">
+						<h3 class="inner_section_title">EnglishTest</h3>
+						<p>
+							The class contains the English Test game.
+						</p>
+					</div>
+					<div id="ReflexesGame">
+						<h3 class="inner_section_title">ReflexesGame</h3>
+						<p>
+							The class contains the Test Your Reflexes game.
+						</p>
+					</div>
+					<div id="Menu">
+						<h3 class="inner_section_title">Menu</h3>
+						<p>
+							The class contains the Main Menu of the game.
+						</p>
+					</div>
+				</div>
+				<div id="methods">
+					<h2 class="section_title">Methods</h2>
+					<p>
+						The following chapter describes the methods we used
+						in out game project.
+					</p>
+					<p>
+						<strong>Not all methods are listed in the documentation.</strong>
+					</p>
+					<div id="side_bar">
+						<h3 class="inner_section_title">SideBar()</h3>
+						<p>
+							This method is used to draw the Side Bar of the main
+							menu, as well as, the side bars in each games.
+						</p>
+					</div>
+					<div id="game_story">
+						<h3 class="inner_section_title">GameStory()</h3>
+						<p>
+							This method is used to print the game story in the 
+							main menu.
+						</p>
+					</div>
+					<div id="selected_game">
+						<h3 class="inner_section_title">SelectedGame()</h3>
+						<p>
+							This method is used to start the different games
+							from the main menu.
+						</p>
+					</div>
+					<div id="felix_pic">
+						<h3 class="inner_section_title">FelixPicture()</h3>
+						<p>
+							This method is used draw Felix's picture in the 
+							main menu.
+						</p>
+					</div>
+					<div id="play">
+						<h3 class="inner_section_title">Play()</h3>
+						<p>
+							This method contains the game logic of 
+							several of the games and is used to call
+							games from the SelectedGame() method.
+						</p>
+					</div>
+					<div id="time_is_up">
+						<h3 class="inner_section_title">TimeIsUp()</h3>
+						<p>
+							This method handles what happens when the Timer
+							has reached its elapsed time.
+						</p>
+					</div>
+					<div id="true_false">
+						<h3 class="inner_section_title">TrueOrFalse()</h3>
+						<p>
+							This method is used in the Test Your English game
+							to handle correct and incorrect answers.
+						</p>
+					</div>
+					<div id="print_at_position">
+						<h3 class="inner_section_title">PrintAtPosition()</h3>
+						<p>
+							This method is used to print different forms and
+							structures in the games.
+						</p>
+					</div>
+					<div id="you_are_wrong">
+						<h3 class="inner_section_title">YouAreWrong()</h3>
+						<p>
+							This method handles the console window behavior if 
+							the answer is wrong in the Test Your Reflexes Game.
+						</p>
+					</div>
+					<div id="get_blackhole_symbols">
+						<h3 class="inner_section_title">GetBlackHoleSymbols()</h3>
+						<p>
+							This method generates the black hole's shape in the 
+							Black Hole game.
+						</p>
+					</div>	
+					<div id="gen_black_hole">
+						<h3 class="inner_section_title">GenerateBlackHole()</h3>
+						<p>
+							This method generates a new Black Hole object.
+						</p>
+					</div>	
+					<div id="random_figure">
+						<h3 class="inner_section_title">GetRandomList()</h3>
+						<p>
+							This method is used to generate a random list with 
+							objects with random shape and color for the falling
+							figures in the Black Hole game.
+						</p>
+					</div>	
+					<div id="print_figure">
+						<h3 class="inner_section_title">PrintFigure()</h3>
+						<p>
+							This method is used to print the falling figures
+							in the Black Hole game.
+						</p>
+					</div>	
+					<div id="game_is_over">
+						<h3 class="inner_section_title">IsGameOver()</h3>
+						<p>
+							This method is used in the Black Hole game to
+							check is the time for the game is over.
+						</p>
+					</div>
+					<div id="select_dificulty">
+						<h3 class="inner_section_title">SelectDifficulty()</h3>
+						<p>
+							This method is used to select the difficulty level of
+							the Action game.
+						</p>
+					</div>
+					<div id="select_weapon">
+						<h3 class="inner_section_title">SelectWeapon()</h3>
+						<p>
+							This method is used to select the weapon in 
+							the Action game.
+						</p>
+					</div>
+					<div id="select_weapon_kind">
+						<h3 class="inner_section_title">WeaponKind()</h3>
+						<p>
+							Sets a different character for ActionGame.CharInfo weapon,
+							depending on the selected weapon.
+						</p>
+					</div>
+					<div id="print_matrix">
+						<h3 class="inner_section_title">PrintMatrix()</h3>
+						<p>
+							This method is used to print the matrix in 
+							the Action game.
+						</p>
+					</div>
+					<div id="clear_matrix">
+						<h3 class="inner_section_title">ClearMatrix()</h3>
+						<p>
+							This method is used to clear the matrix in 
+							the Action game.
+						</p>
+					</div>
+					<div id="number_of_fishes">
+						<h3 class="inner_section_title">NumberOfFishes()</h3>
+						<p>
+							This method regulates the number of fishes to be
+							printed in the Action Game.
+						</p>
+					</div>
+					<div id="game_end">
+						<h3 class="inner_section_title">GameEnd()</h3>
+						<p>
+							This method is called at the end of the Action Game;
+							it displayed the current and the high scores.
+						</p>
+					</div>					
+				</div>				
+			</div>
+		</div>
+	<body>
+</html>

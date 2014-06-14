@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <title>06. Is array element bigger than neighbors</title>
+        <link rel="stylesheet" type="text/css" href="css/jsConsoleStyles.css" />
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    </head>
+    <body>
+        <header>
+            <h2>JavaScript Console</h2>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+            </nav>
+            <div id="javascript-ninja"></div>
+        </header>
+        <div id="wrapper">
+            <aside>
+                <ul>
+                    <li><a href="01.NumberLastDigitAsWord.html">01. Number's last digit as word</a></li>
+                    <li><a href="02.DecimalNumberReverseDigits.html">02. Decimal number reverse digits</a></li>
+                    <li><a href="03.CountWordOccurrences.html">03. Count word occurrences</a></li>
+                    <li><a href="04.CountNumberOfDivs.html">04. Count number of divs</a></li>
+                    <li><a href="05.ArrayCountNumberOccurrences.html">05. Array - count number occurrences</a></li>
+                    <li><a href="06.IsArrayElementBiggerThanNeighbors.html">06. Is array element bigger than neighbors</a></li>
+                    <li><a href="07.ArrayFirstElementBiggerThanNeighborsIndex.html">07. Index of first element bigger than neighbors</a></li>
+                </ul>
+            </aside>
+            <section>
+                <article>
+                    <h3>Is array element bigger than neighbors</h3>
+                    <p>
+                       Write a function that checks if the element at given position 
+                       in given array of integers is bigger than its two neighbors (when such exist).
+                    </p>
+                    <form>  
+                        <label for="number-seq">Enter array elements: </label>
+                        <input type="text" id="number-seq" onkeydown="return jsConsole.searchKeyPress(event);" />
+                        <label for="position">Position: </label>
+                        <input type="text" id="position" onkeydown="return jsConsole.searchKeyPress(event);" />
+                        <input type="button" id="process" value="Process" />
+                        <input type="button" onclick="jsConsole.clearAll()" id="clear" value="Clear" />
+                    </form>
+                </article>
+                <div id="js-console">
+                </div>
+            </section>
+        </div>
+        <footer></footer>
+        <script type="text/javascript" src="js/js-console.js"></script>
+        <script type="text/javascript" src="js/userValidation.js"></script>
+        <script type="text/javascript" src="js/06.IsArrayElementBiggerThanNeighbors.js"></script>
+    </body>
+</html>

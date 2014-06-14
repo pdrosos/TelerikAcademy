@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Products</title>
+    <link rel="stylesheet" href="styles/products.css" media="screen" />
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Apple</a></li>
+                        <li><a href="#">Toshiba</a></li>
+                        <li><a href="#">Lenovo</a></li>
+                        <li><a href="#">Dell</a></li>
+                        <li><a href="#">Asus</a></li>
+                        <li><a href="#">Acer</a></li>
+                        <li><a href="#">HP</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <div id="content">
+            <div id="products">
+                <div class="product">
+                    <h3>Apple MacBook Air</h3>
+                    
+                    <img src="images/macbook_air.png" alt="product" />
+
+                    <ul class="specifications">
+                        <li>64 GB SSD</li>
+                        <li>2 GB DDR</li>
+                        <li>Intel Core i5</li>
+                    </ul>
+
+                    <span class="price">1300 USD</span>
+                </div>
+                <div class="product">
+                    <h3>Apple MacBook Air</h3>
+                    
+                    <img src="images/macbook_air.png" alt="product" />
+
+                    <ul class="specifications">
+                        <li>64 GB SSD</li>
+                        <li>2 GB DDR</li>
+                        <li>Intel Core i5</li>
+                    </ul>
+
+                    <span class="price">1300 USD</span>
+                </div>
+                <div class="product">
+                    <h3>Apple MacBook Air</h3>
+                    
+                    <img src="images/macbook_air.png" alt="product" />
+
+                    <ul class="specifications">
+                        <li>64 GB SSD</li>
+                        <li>2 GB DDR</li>
+                        <li>Intel Core i5</li>
+                    </ul>
+
+                    <span class="price">1300 USD</span>
+                </div>
+                <div class="product">
+                    <h3>Apple MacBook Air</h3>
+                    
+                    <img src="images/macbook_air.png" alt="product" />
+
+                    <ul class="specifications">
+                        <li>64 GB SSD</li>
+                        <li>2 GB DDR</li>
+                        <li>Intel Core i5</li>
+                    </ul>
+
+                    <span class="price">1300 USD</span>
+                </div>
+                <div class="product">
+                    <h3>Apple MacBook Air</h3>
+                    
+                    <img src="images/macbook_air.png" alt="product" />
+
+                    <ul class="specifications">
+                        <li>64 GB SSD</li>
+                        <li>2 GB DDR</li>
+                        <li>Intel Core i5</li>
+                    </ul>
+
+                    <span class="price">1300 USD</span>
+                </div>
+                <div class="product">
+                    <h3>Apple MacBook Air</h3>
+                    
+                    <img src="images/macbook_air.png" alt="product" />
+
+                    <ul class="specifications">
+                        <li>64 GB SSD</li>
+                        <li>2 GB DDR</li>
+                        <li>Intel Core i5</li>
+                    </ul>
+
+                    <span class="price">1300 USD</span>
+                </div>
+            </div>
+
+            <div id="filter">
+                <aside>
+                    <!-- fieldset/legend are used because they are required in the task description, they can be replaced by <label> -->
+                    <form id="filterForm" name="filterForm" method="get" action="#">
+                        <fieldset>
+                            <legend><span>Min price:</span></legend>
+                            <input type="range" name="minPriceFilter" min="50" max="3000" step="50" value="500"
+                                   oninput="minPrice.value = this.value + ' USD'" />
+                            <output name="minPrice">500 USD</output>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend><span>Max price:</span></legend>                        
+                            <input type="range" name="maxPriceFilter" min="50" max="3000" step="50" value="1500"
+                                   oninput="maxPrice.value = this.value + ' USD'" />
+                            <output name="maxPrice">1500 USD</output>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend><span>Min RAM:</span></legend>
+                            <input type="range" name="minRamFilter" min="1" max="16" step="1" value="4"
+                                   oninput="minRam.value = this.value + ' GB'" />
+                            <output name="minRam">4 GB</output>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend><span>Max RAM:</span></legend>
+                            <input type="range" name="maxRamFilter" min="1" max="16" step="1" value="16" 
+                                   oninput="maxRam.value = this.value + ' GB'" />
+                            <output name="maxRam">16 GB</output>
+                        </fieldset>
+                    </form>
+                </aside>
+            </div>
+            
+        </div>        
+    </div>
+</body>
+</html>

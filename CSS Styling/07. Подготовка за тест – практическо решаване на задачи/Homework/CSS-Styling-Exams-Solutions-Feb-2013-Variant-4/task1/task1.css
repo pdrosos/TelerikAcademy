@@ -1,0 +1,116 @@
+﻿/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of CSS Reset */
+
+body
+{
+    font-family: Constantina, Georgia, 'Nimbus Roman No9 L', serif;
+    width: 960px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 16px;
+    color: #000000;
+}
+
+#wrapper
+{
+    width: 932px;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    background: linear-gradient(to bottom, #de28ff 0,#de28ff 15%,#f1a5ff 57%,#daa7ff 57%,#f1a8ff 58%,#f3b6ff 63%,#ddb7ff 63%,#f4b9ff 64%,#f7ccff 70%,#f7d0ff 71%,#e0d2ff 72%,#f8d3ff 72%,#f9d9ff 74%,#f9dbff 100%);
+    position: relative;
+}
+
+#wrapper > div
+{
+    padding: 20px 35px;
+}
+
+.left-arrow
+{
+    position: absolute;
+    /*
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    */
+    top: 50%;
+    left: 0;
+    margin-top: -15px;
+}
+
+.right-arrow
+{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -15px;
+}
+
+h1
+{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.postedby
+{
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    display: inline-block;
+    margin: 7px 15px;
+    padding: 7px 15px;
+}
+
+.info
+{
+    text-align: justify;
+    margin-top: 15px;
+}

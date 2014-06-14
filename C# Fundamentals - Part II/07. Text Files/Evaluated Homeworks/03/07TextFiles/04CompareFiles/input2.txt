@@ -1,0 +1,6 @@
+1: Streams are used for reading and writing data into and from devices
+fgjtyjdh
+3: Provide consecutive access to its elements
+4: Different types of streams are available to access different data sources:
+dfyjdyj
+6: Streams are open before using them and closed after that

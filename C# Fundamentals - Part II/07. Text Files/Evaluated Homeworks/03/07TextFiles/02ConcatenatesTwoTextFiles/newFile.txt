@@ -1,0 +1,6 @@
+Streams are used for reading and writing data into and from devices
+Streams are ordered sequences of bytes
+Provide consecutive access to its elements
+Different types of streams are available to access different data sources:
+File access, network access, memory streams and others
+Streams are open before using them and closed after that

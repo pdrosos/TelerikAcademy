@@ -1,0 +1,180 @@
+question: 
+ My brother and I used _____ in that forest when we were kids.
+answers:
+1)to go camping
+2)to go to camp
+3)going camping
+4)going to camp 
+1
+question:
+ Leave me at peace! I don't need _____ your help ___ your compassion.
+answers:
+1)neither ... nor
+2)either ... or
+3)both ... or
+4)both ... and 
+2
+question:
+ Don't go _____ the edge. It's dangerous.
+answers:
+1)near
+2)more near
+3)more nearly
+4)nearly 
+1
+question:
+ _____ manage to reach the village before sunset?
+answers:
+1)Will we
+2)Ought we
+3)Are we
+4)Do we 
+1
+question:
+ What year did you _____ university?
+answers:
+1)graduate
+2)graduate from
+3)graduating
+4)graduating from
+2
+question:
+ It seems to be getting worse. You had better _____ a specialist.
+answers:
+1)consult
+2)consult to
+3)consult for
+4)consult by
+1
+question:
+ Chicago is a large city, _____?
+answers:
+1)aren't it
+2)doesn't it
+3)won't it
+4)isn't it
+4
+question:
+  Don't leave your books near the open fire. They might easily _____.
+answers:
+1)catch to fire
+2)catch the fire
+3)catch on fire
+4)catch with fire
+3
+question:
+ Do you enjoy _____?
+answers:
+1)to swim
+2)swimming
+3)swim
+4)to swimming
+2
+question:
+ I have trouble _____.
+answers:
+1)to remember my password
+2)to remembering my password
+3)remember my password
+4)remembering my password
+4
+question:
+ Do you have _____ to do today? We could have a long lunch if not.
+answers:
+1)many work
+2)much work
+3)many works
+4)much works
+2
+question:
+ My brother will _____ for a few nights.
+answers:
+1)provide us up
+2)provide us in
+3)put us up
+4)put us in
+3
+question:
+ When will the meeting _____?
+answers:
+1)hold on
+2)hold place
+3)take on
+4)take place
+4
+question:
+ "Excuse me. Do you know where the bus terminal is?"
+"It is _____ the large police station."
+answers:
+1)opposite of
+2)opposed to
+3)opposite with
+4)opposite to
+4
+question:
+ "Bill is not doing well in class."
+"You must _____ that he is just a beginner at this level."
+answers:
+1)keep minding
+2)keep to mind
+3)keep in mind
+4)keeping in mind
+3
+question:
+ "It is not very cold. I don't think we need these big jackets."
+"I don't think so, _____."
+answers:
+1)anyway
+2)neither
+3)either
+4)too
+3
+question:
+ "What happened to them last night? They look depressed"
+"I don't think _____ happened."
+answers:
+1)nothing
+2)everything
+3)something
+4)anything
+4
+question:
+ Tom was thrilled to be _____ such a beautiful and interesting lady.
+answers:
+1)introduced
+2)introduced at
+3)introduced with
+4)introduced to
+4
+question:
+ Do you feel like _____ now?
+answers:
+1)swimming
+2)to swim
+3)swim
+4)to go swimming
+1
+question:
+ Our company didn't pay _____ for that banner advertisement.
+answers:
+1)much funds
+2)many funds
+3)many money
+4)much money
+4
+question:
+It's snowing. Would you like to _____ on Saturday or Sunday?
+answers:
+1)skiing
+2)go to ski
+3)go skiing
+4)go ski
+3
+question:
+ If you don't understand the text, don't hesitate _____.
+answers:
+1)ask a question
+2)asking a question
+3)to ask a question
+4)to asking a question
+3

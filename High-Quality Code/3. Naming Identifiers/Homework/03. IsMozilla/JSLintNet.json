@@ -1,0 +1,11 @@
+﻿{
+  "ignore": [],
+  "options": {
+    "predef": {},
+    "devel": true,
+    "unparam": true
+  },
+  "runOnSave": true,
+  "runOnBuild": true,
+  "cancelBuild": true
+}

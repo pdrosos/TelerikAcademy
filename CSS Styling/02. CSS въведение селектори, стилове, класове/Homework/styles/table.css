@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Calibri Verdana, Geneva, 'DejaVu Sans', sans-serif;
+    font-size: 14px;
+}
+
+#contacts {
+    width: 600px;   
+    border-collapse: collapse; 
+}
+
+#contacts th, td {
+    text-align: left;
+    padding-left: 5px;
+    border-right: 1px solid #BDBB9F;
+}
+
+#contacts th:last-child, td:last-child {
+    border-right: none;
+}
+
+#contacts th {
+    background-color: #54B706;
+    color: #FFF;
+    font-weight: normal;
+    border-bottom: 2px solid #1F7100;
+}
+
+#contacts tr {
+    height: 35px;
+}
+
+#contacts tbody tr:nth-child(2n) {
+    background-color: #ECECD8;
+}
+
+#contacts ul li {
+    padding-left: 40px;
+}

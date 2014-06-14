@@ -1,0 +1,43 @@
+﻿body {
+    font-family: Verdana, Calibri, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #8DF5F3;
+}
+
+table {
+    background-color: grey;
+    border-collapse: collapse;
+}
+
+table, td {
+    border: 2px solid #8DF5F3;
+}
+
+table td {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle; 
+}
+
+input {
+    height: 50px;
+    width: 50px;   
+    background-color: grey;
+    border: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #8DF5F3;
+    cursor: pointer;
+}
+
+.zero {
+    width: 100px;
+}
+
+output {
+    float: right;
+    margin-right: 10px;
+}

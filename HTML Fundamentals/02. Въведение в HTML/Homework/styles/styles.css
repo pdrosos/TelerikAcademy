@@ -1,0 +1,58 @@
+﻿body {
+    font-family: Verdana, Calibri, Arial, sans-serif;
+    font-size: 16px;
+    background-color: skyblue;
+    margin: 0px;
+}
+
+#container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+header nav ul li {
+    float: left;    
+    margin-right: 150px;
+}
+
+header nav ul:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+h1 {
+    font-style: italic;
+    font-size: 28px;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+    border-top: thin solid gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+section div {
+    font-size: 18px;
+}
+
+#profilePicture {
+    width: 300px;
+}
+
+#info {
+    padding-left: 25px;
+}
+
+#info dt, #info p {
+    font-style: italic;
+}

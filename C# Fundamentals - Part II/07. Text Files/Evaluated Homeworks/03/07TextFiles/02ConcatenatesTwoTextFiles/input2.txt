@@ -1,0 +1,3 @@
+Different types of streams are available to access different data sources:
+File access, network access, memory streams and others
+Streams are open before using them and closed after that
