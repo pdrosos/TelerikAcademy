@@ -5,14 +5,14 @@
     $.fn.dropdown = function() {
         var $this = $(this);
 
-        if (!$($this).is('select')) {
+        if (!$this.is('select')) {
             return $this;
         }
 
-        $($this).hide();
-        $($this).after(renderDropdown($this));
+        $this.hide();
+        $this.after(renderDropdown($this));
 
-        function renderDropdown(selectBox) {
+        function renderDropdown($selectBox) {
             var dropdownContainer,
                 dropdown,
                 option;
@@ -21,10 +21,10 @@
             $(dropdownContainer).append($('<a>').attr('href', '#').addClass('dropdown-list-toggle'));
             dropdown = $('<ul>').addClass('dropdown-list-options');
 
-            $(selectBox).find('option').each(function() {
+            $selectBox.find('option').each(function() {
                 option = $('<li>')
                     .addClass('dropdown-list-option')
-                    .attr('data-value', $(this).attr('value'))
+                    .data('value', $(this).attr('value'))
                     .html($(this).html());
 
                 // if the corresponding select option is not selected, hide the li
@@ -64,7 +64,7 @@
             $(this).prependTo($(this).parent());
 
             // change the selected value of the real select element
-            $(this).parents('.dropdown-list-container').prev().val($(this).attr('data-value'));
+            $(this).parents('.dropdown-list-container').prev().val($(this).data('value'));
 
             // close dropdown
             $(this).parents('.dropdown-list-container').find('a').trigger('click');

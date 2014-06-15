@@ -1,0 +1,38 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+    color: #2A2A2A;
+}
+
+#container {
+    padding: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    font-weight: bold;
+}
+
+table, tr, th, td {
+    border: 1px solid #2A2A2A;
+}
+
+th {
+    background-color: #A6A6A6;
+    color: #FFFFFF;
+}
+
+td {
+    padding: 3px;
+}
+
+td.course-number {
+    text-align: center;
+}
+
+tbody tr:nth-child(2n) {
+    background-color: #D9D9D9;
+}

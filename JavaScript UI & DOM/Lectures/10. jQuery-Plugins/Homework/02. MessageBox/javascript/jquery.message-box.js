@@ -16,7 +16,7 @@
         var settings = $.extend({}, defaults, options);
 
         /* fadeIn and fadeOut the messages */
-        $($this).fadeIn(settings.fadeInDuration).delay(settings.visibilityDuration).fadeOut(settings.fadeOutDuration);
+        $this.fadeIn(settings.fadeInDuration).delay(settings.visibilityDuration).fadeOut(settings.fadeOutDuration);
 
         return $this;
     }

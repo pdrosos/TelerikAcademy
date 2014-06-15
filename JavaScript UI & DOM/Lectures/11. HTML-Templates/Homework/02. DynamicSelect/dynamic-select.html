@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Dynamic Select</title>
+
+    <script src="library/handlebars-v1.3.0.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+</head>
+<body>
+    <div id="container"></div>
+
+    <script type="text/x-handlebars-template" id="select-template">
+        <select>
+            {{#each options}}
+            <option value="{{value}}">{{text}}</option>
+            {{/each}}
+        </select>
+    </script>
+
+    <script src="javascript/dynamic-select.js" type="text/javascript"></script>
+</body>
+</html>
