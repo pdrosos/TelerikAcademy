@@ -1,0 +1,38 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+
+html, body, ul {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+    color: #2a2a2a;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 300;
+}
+
+.message-box {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    color: #ffffff;
+    display: none;
+}
+
+.message-box.error {
+    background-color: #F64B2F;
+}
+
+.message-box.warning {
+    background-color: #F6CA2F;
+}
+
+.message-box.success {
+    background-color: #7EB62E;
+}
+
+.message-box.info {
+    background-color: #2FA9F6;
+}

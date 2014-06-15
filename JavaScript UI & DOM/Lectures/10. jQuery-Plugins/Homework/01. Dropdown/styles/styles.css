@@ -1,0 +1,72 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+
+html, body, ul {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+    color: #2a2a2a;
+}
+
+#container {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+.dropdown-list-container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: #2d2d2d;
+    border: 1px solid #515151;
+    position: relative;
+    width: 200px;
+    cursor: pointer;
+}
+
+.dropdown-list-toggle, .dropdown-list-toggle-open {
+    background: url("../images/select-icons.png") no-repeat scroll 0 -116px rgba(0, 0, 0, 0);
+    display: block;
+    height: 30px;
+    outline: medium none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+}
+
+.dropdown-list-toggle:hover {
+    background: url("../images/select-icons.png") no-repeat scroll 0 -167px rgba(0, 0, 0, 0);
+}
+
+.dropdown-list-toggle-open {
+    background: url("../images/select-icons.png") no-repeat scroll 0 -16px rgba(0, 0, 0, 0);
+}
+
+.dropdown-list-toggle-open:hover {
+    background: url("../images/select-icons.png") no-repeat scroll 0 -66px rgba(0, 0, 0, 0);
+}
+
+.dropdown-list-options {
+    list-style: none;
+    overflow-y: auto;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.dropdown-list-option {
+    height: 30px;
+    margin-top: 6px;
+    margin-left: 7px;
+    color: #dddddd;
+    border-bottom: 1px dotted #515151;
+}
+
+.dropdown-list-option.selected, .dropdown-list-option:hover {
+    color: #ebb52d;
+}
