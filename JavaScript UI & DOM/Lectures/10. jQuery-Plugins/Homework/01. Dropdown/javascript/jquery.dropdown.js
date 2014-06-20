@@ -64,7 +64,7 @@
             $(this).prependTo($(this).parent());
 
             // change the selected value of the real select element
-            $(this).parents('.dropdown-list-container').prev().val($(this).data('value'));
+            $this.val($(this).data('value'));
 
             // close dropdown
             $(this).parents('.dropdown-list-container').find('a').trigger('click');
