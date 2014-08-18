@@ -1,0 +1,50 @@
+Решението е в директорията Computers-solution. В директорията Computers-problem е оригиналният код за сравнение.
+
+Design pattern: Simple Factory
+	* За създаване на VideoCard, за създаване на ComputerFactory (HP или Dell или Lenovo)
+
+Design pattern: Strategy
+	* ICommandParser и CommandParser за парсване на командата от конзолата
+
+Design pattern: Template Method
+	* В класа AbstractComputerFactory.cs - има темплейтни методи, които конкретните фабрики трябва да имплементират
+
+Design pattern: Abstract factory
+	* AbstractComputerFactory.cs
+
+Design pattern: Composite
+	* 
+
+Design pattern: Mediator
+	* 
+
+Found bottlenecks:
+	* Във файла Program.cs - ред 66 - в while (1 == 1) goto е премахнат.
+	* 
+
+Found bugs:
+	* В класа HardDriver - ред 30 в оригиналния код: this.data = new Dictionary<int, string(capacity); 
+        - липсва символа > в дефиницията на Dictionary - this.data = new Dictionary<int, string>(capacity);
+	* В класа HardDriver - ред 51 в оригиналния код: this.capacity = capacity
+        - липсва ; на края на реда - this.capacity = capacity;
+	* В класа Cpu - в конструктора - ред 16 в оригиналния код:
+        - параметърът HardDriver videoCard не се присвоява на полето private readonly HardDriver videoCard; на ред 12
+    * В класа Laptop има втори private static void Main() метод, който е в различен namespace и след уеднаквяването на namespaces на всички класове на Copmuters е премахнат.
+    * Във файла Program.cs - ред 102 в оригиналния код: VideoCard.Draw(string.Format("Battery status: {0}", battery.Percentage));
+        - пропуснат е % - VideoCard.Draw(string.Format("Battery status: {0}%", battery.Percentage));
+    * Middle man - класа InvalidArgumentException, който извиква базовия ArgumentException и не добавя нищо ново е махнат
+
+Single responsibility principle
+	* VideoCard и HardDrive класовете са разделени, а не са вече 1 общ клас
+
+Open/closed principle
+	* 
+
+Liskov substitution principle
+	* наследниците на Computer го заместват изцяло
+
+Interface segregation principle
+	* 
+
+Dependency inversion principle
+	* Всички класове получават своите зависимости през конструктор или setter

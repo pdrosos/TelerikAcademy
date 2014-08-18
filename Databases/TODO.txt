@@ -1,0 +1,9 @@
+Да се свържем с Ivailo.Ivanov@telerik.com. Иска да направят OpenAccess лекция в академията.
+Да поканим за лектори колегите от ORM: Виктов Живков и компания.
+Да поканим за лектори от Cloud екипите и от Web Team (Николай Ненчев).
+
+За database проектите:
+http://candordeveloper.com/2013/01/08/creating-a-sql-server-database-project-in-visual-studio-2012/
+
+Да се добави една тема за Database Projects във Visusal Studio.
+Поддържа unit testing, dummmy data generation и други благинки.

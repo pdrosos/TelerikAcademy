@@ -1,0 +1,93 @@
+Има аномалия при сортирането. Различните методи за сортиране ползват различни правила за подредба (string comparison) и се получават различни резултати.
+
+Jason Zhekov: В крайна сметка установих, че: "-z" < "Z" и "Z" < "z-", но "z-" < "-z", което според мен е явно някакъв бъг, когато думата започва с тире, защото го обработват по различен начин:
+"The hyphen and the apostrophe are treated differently from the other nonalphanumeric characters to ensure that words such as "coop" and "co-op" stay together in a sorted list." - MSDN
+
+Примерът по-долу е особено интересен.
+
+
+using System;
+using System.Linq;
+using System.Diagnostics;
+using System.Collections.Generic;
+ 
+class Str : IComparable, IComparable<Str>
+{
+    public string Data { get; private set; }
+ 
+    public Str(string data)
+    {
+        this.Data = data;
+    }
+ 
+    public int CompareTo(object obj)
+    {
+        Debug.Assert(obj is Str);
+ 
+        return this.CompareTo(obj as Str);
+    }
+ 
+    public int CompareTo(Str other)
+    {
+        //return 0;
+ 
+        int result = StringComparer.InvariantCulture.Compare(this.Data, other.Data);
+        //int result = StringComparer.Ordinal.Compare(this.Data, other.Data); // Works as expected
+ 
+        return result;
+    }
+ 
+    public override string ToString()
+    {
+        return this.Data;
+    }
+}
+ 
+class Program
+{
+    static void Main()
+    {
+        System.Threading.Thread.CurrentThread.CurrentCulture = System.Globalization.CultureInfo.InvariantCulture;
+ 
+        var collections = new List<IList<IComparable>>
+        {
+            // -z < Z && Z < z-, but z- < -z ?
+            new[] { "-z", "Z" },
+            new[] { "Z", "z-" },
+            new[] { "z-", "-z" },
+ 
+            // Set is different
+            new[] { new Str("-z"), new Str("Z"), new Str("z-"), new Str("z") },
+            //new[] { "-z", "Z", "z-", "z" },
+ 
+            // OrderBy is different
+            new[] { new Str("-z"), new Str("Z"), new Str("z-") },
+            //new[] { "-z", "Z", "z-" },
+ 
+            // Sort is different
+            new[] { new Str("a"), new Str("-z"), new Str("Z"), new Str("z-") },
+            //new[] { "a", "-z", "Z", "z-" },
+        };
+ 
+        foreach (var collection in collections)
+        {
+            var set = new SortedSet<IComparable>();
+            var list = new List<IComparable>();
+ 
+            foreach (var item in collection)
+            {
+                set.Add(item);
+                list.Add(item);
+            }
+ 
+            Console.WriteLine("Set:     " + string.Join(" ", set));
+ 
+            Console.WriteLine("OrderBy: " + string.Join(" ", list.OrderBy(x => x)));
+ 
+            list.Sort();
+            Console.WriteLine("Sort:    " + string.Join(" ", list));
+ 
+            Console.WriteLine();
+        }
+    }
+}

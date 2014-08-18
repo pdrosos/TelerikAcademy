@@ -1,0 +1,5 @@
+Wintellect PowerCollections:
+ - Да се направи demo на sub-range
+Advanced Structures - да се споменат само:
+ - Indexing trees, Suffix trees, Interval trees, Trie, ...
+ - може да се добавят картинки + линк към добра C# имплементация

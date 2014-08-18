@@ -1,0 +1,17 @@
+body {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    background-color: #EEF5CF;
+    font-size: 1.05em;
+}
+
+#javascript-ninja {
+    float: right;
+    background: url("../images/javascript-ninja.png");
+    -moz-background-size: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 110px;
+    height: 80px;
+    border: none;
+    margin-right: 20px;
+}

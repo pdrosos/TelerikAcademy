@@ -1,0 +1,5 @@
+Да се добавят 1-2 слайда за други структури от данни (Wintellect Power Collections): Bag, MultiDictionary, OrderedBag, OrderedMultiDictionary, Deque, BigList, ... Там, където се изброява кога коя структура да ползваме може да се добавят и тези.
+
+Да се добави структурата BigList<T> в предната точка.
+
+Да се добави слайд, че LINQ работи през IEnumerable и е като цяло бавно.

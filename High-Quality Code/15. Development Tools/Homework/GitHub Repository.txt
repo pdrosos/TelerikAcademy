@@ -1,0 +1,3 @@
+I don't want to spam GitHub by creating a fake account and repository, so here is my Telerik Academy homework repository:
+
+https://github.com/pdrosos/TelerikAcademy

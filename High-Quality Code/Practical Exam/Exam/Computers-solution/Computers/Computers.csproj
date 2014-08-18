@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{920382DC-166F-4C55-8AF7-70D668191107}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Computers</RootNamespace>
+    <AssemblyName>Computers</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Collections.Generic">
+      <HintPath>Properties\System.Collections.Generic.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commands\Info\CommandInfo.cs" />
+    <Compile Include="Commands\Parsers\CommandParser.cs" />
+    <Compile Include="Commands\Parsers\ICommandParser.cs" />
+    <Compile Include="Components\Motherboard.cs" />
+    <Compile Include="Components\VideoCard.cs" />
+    <Compile Include="Components\Factories\VideoCardFactory.cs" />
+    <Compile Include="Factories\AbstractComputerFactory.cs" />
+    <Compile Include="Factories\CreateComputerFactory.cs" />
+    <Compile Include="Factories\DellFactory.cs" />
+    <Compile Include="Factories\LenovoFactory.cs" />
+    <Compile Include="Factories\HpFactory.cs" />
+    <Compile Include="Manufacturers\Manufacturer.cs" />
+    <Compile Include="Types\Computer.cs" />
+    <Compile Include="Components\Cpu.cs" />
+    <Compile Include="Components\HardDrive.cs" />
+    <Compile Include="Components\IMotherboard.cs" />
+    <Compile Include="Types\Server.cs" />
+    <Compile Include="Types\Pc.cs" />
+    <Compile Include="Types\Laptop.cs" />
+    <Compile Include="Components\Battery.cs" />
+    <Compile Include="Components\Ram.cs" />
+    <Compile Include="ComputersEntryPoint.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
